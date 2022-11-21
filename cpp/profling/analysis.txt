@@ -1,0 +1,1380 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00       69     0.00     0.00  std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int)
+  0.00      0.00     0.00       66     0.00     0.00  std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int)
+  0.00      0.00     0.00       65     0.00     0.00  std::_Bit_iterator::operator*() const
+  0.00      0.00     0.00       65     0.00     0.00  std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long)
+  0.00      0.00     0.00       65     0.00     0.00  std::vector<bool, std::allocator<bool> >::operator[](unsigned int)
+  0.00      0.00     0.00       55     0.00     0.00  std::_Bit_reference::operator bool() const
+  0.00      0.00     0.00       50     0.00     0.00  std::move_iterator<Task*>::base() const
+  0.00      0.00     0.00       50     0.00     0.00  Task&& std::forward<Task>(std::remove_reference<Task>::type&)
+  0.00      0.00     0.00       47     0.00     0.00  operator new(unsigned int, void*)
+  0.00      0.00     0.00       40     0.00     0.00  Task* std::__addressof<Task>(Task&)
+  0.00      0.00     0.00       35     0.00     0.00  Task::~Task()
+  0.00      0.00     0.00       30     0.00     0.00  std::move_iterator<ClubMember*>::base() const
+  0.00      0.00     0.00       30     0.00     0.00  int* std::__niter_base<int*>(int*)
+  0.00      0.00     0.00       26     0.00     0.00  ClubMember&& std::forward<ClubMember>(std::remove_reference<ClubMember>::type&)
+  0.00      0.00     0.00       25     0.00     0.00  Task::Task(Task&&)
+  0.00      0.00     0.00       25     0.00     0.00  int const& std::forward<int const&>(std::remove_reference<int const&>::type&)
+  0.00      0.00     0.00       25     0.00     0.00  void std::_Destroy<Task>(Task*)
+  0.00      0.00     0.00       25     0.00     0.00  bool std::operator==<Task*>(std::move_iterator<Task*> const&, std::move_iterator<Task*> const&)
+  0.00      0.00     0.00       25     0.00     0.00  bool std::operator!=<Task*>(std::move_iterator<Task*> const&, std::move_iterator<Task*> const&)
+  0.00      0.00     0.00       24     0.00     0.00  std::vector<ClubMember, std::allocator<ClubMember> >::operator[](unsigned int)
+  0.00      0.00     0.00       21     0.00     0.00  std::vector<Task, std::allocator<Task> >::size() const
+  0.00      0.00     0.00       20     0.00     0.00  __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::base() const
+  0.00      0.00     0.00       20     0.00     0.00  __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const
+  0.00      0.00     0.00       20     0.00     0.00  std::move_iterator<int*>::base() const
+  0.00      0.00     0.00       20     0.00     0.00  std::vector<int, std::allocator<int> >::size() const
+  0.00      0.00     0.00       20     0.00     0.00  std::move_iterator<Task*>::move_iterator(Task*)
+  0.00      0.00     0.00       20     0.00     0.00  std::move_iterator<int*>::move_iterator(int*)
+  0.00      0.00     0.00       20     0.00     0.00  decltype (__miter_base(({parm#1}.base)())) std::__miter_base<int*>(std::move_iterator<int*>)
+  0.00      0.00     0.00       20     0.00     0.00  int* std::__miter_base<int*>(int*)
+  0.00      0.00     0.00       20     0.00     0.00  std::move_iterator<Task*> std::__make_move_if_noexcept_iterator<Task, std::move_iterator<Task*> >(Task*)
+  0.00      0.00     0.00       20     0.00     0.00  std::move_iterator<int*> std::__make_move_if_noexcept_iterator<int, std::move_iterator<int*> >(int*)
+  0.00      0.00     0.00       19     0.00     0.00  ClubMember* std::__addressof<ClubMember>(ClubMember&)
+  0.00      0.00     0.00       17     0.00     0.00  ClubMember::~ClubMember()
+  0.00      0.00     0.00       17     0.00     0.00  std::vector<ClubMember, std::allocator<ClubMember> >::size() const
+  0.00      0.00     0.00       16     0.00     0.00  __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::base() const
+  0.00      0.00     0.00       16     0.00     0.00  std::_Vector_base<Task, std::allocator<Task> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00       16     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00       16     0.00     0.00  std::move_iterator<ClubMember*>::move_iterator(ClubMember*)
+  0.00      0.00     0.00       16     0.00     0.00  std::move_iterator<ClubMember*> std::__make_move_if_noexcept_iterator<ClubMember, std::move_iterator<ClubMember*> >(ClubMember*)
+  0.00      0.00     0.00       15     0.00     0.00  __gnu_cxx::new_allocator<Task>::max_size() const
+  0.00      0.00     0.00       15     0.00     0.00  __gnu_cxx::new_allocator<int>::max_size() const
+  0.00      0.00     0.00       15     0.00     0.00  std::move_iterator<Task*>::operator*() const
+  0.00      0.00     0.00       15     0.00     0.00  std::move_iterator<Task*>::operator++()
+  0.00      0.00     0.00       15     0.00     0.00  void std::_Construct<Task, Task>(Task*, Task&&)
+  0.00      0.00     0.00       15     0.00     0.00  bool std::operator==<ClubMember*>(std::move_iterator<ClubMember*> const&, std::move_iterator<ClubMember*> const&)
+  0.00      0.00     0.00       15     0.00     0.00  bool std::operator!=<ClubMember*>(std::move_iterator<ClubMember*> const&, std::move_iterator<ClubMember*> const&)
+  0.00      0.00     0.00       14     0.00     0.00  unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&)
+  0.00      0.00     0.00       13     0.00     0.00  std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00       12     0.00     0.00  ClubMember::ClubMember(ClubMember&&)
+  0.00      0.00     0.00       12     0.00     0.00  __gnu_cxx::new_allocator<ClubMember>::max_size() const
+  0.00      0.00     0.00       12     0.00     0.00  void std::_Destroy<ClubMember>(ClubMember*)
+  0.00      0.00     0.00       11     0.00     0.00  Club::factorial(int)
+  0.00      0.00     0.00       10     0.00     0.00  Task::Task(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      0.00     0.00       10     0.00     0.00  void __gnu_cxx::new_allocator<Task>::construct<Task, Task>(Task*, Task&&)
+  0.00      0.00     0.00       10     0.00     0.00  void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&)
+  0.00      0.00     0.00       10     0.00     0.00  __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::__normal_iterator(Task* const&)
+  0.00      0.00     0.00       10     0.00     0.00  __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::__normal_iterator(int* const&)
+  0.00      0.00     0.00       10     0.00     0.00  std::_Vector_base<Task, std::allocator<Task> >::_M_get_Tp_allocator() const
+  0.00      0.00     0.00       10     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() const
+  0.00      0.00     0.00       10     0.00     0.00  std::vector<Task, std::allocator<Task> >::max_size() const
+  0.00      0.00     0.00       10     0.00     0.00  std::vector<int, std::allocator<int> >::max_size() const
+  0.00      0.00     0.00       10     0.00     0.00  int* std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<int>(int const*, int const*, int*)
+  0.00      0.00     0.00       10     0.00     0.00  std::_Bit_reference::operator=(bool)
+  0.00      0.00     0.00       10     0.00     0.00  std::allocator_traits<std::allocator<Task> >::max_size(std::allocator<Task> const&)
+  0.00      0.00     0.00       10     0.00     0.00  void std::allocator_traits<std::allocator<Task> >::construct<Task, Task>(std::allocator<Task>&, Task*, Task&&)
+  0.00      0.00     0.00       10     0.00     0.00  std::allocator_traits<std::allocator<int> >::max_size(std::allocator<int> const&)
+  0.00      0.00     0.00       10     0.00     0.00  void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&)
+  0.00      0.00     0.00       10     0.00     0.00  Task* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*)
+  0.00      0.00     0.00       10     0.00     0.00  int* std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*)
+  0.00      0.00     0.00       10     0.00     0.00  void std::vector<Task, std::allocator<Task> >::emplace_back<Task>(Task&&)
+  0.00      0.00     0.00       10     0.00     0.00  std::vector<Task, std::allocator<Task> >::push_back(Task&&)
+  0.00      0.00     0.00       10     0.00     0.00  std::vector<int, std::allocator<int> >::push_back(int const&)
+  0.00      0.00     0.00       10     0.00     0.00  int* std::__copy_move_a<true, int*, int*>(int*, int*, int*)
+  0.00      0.00     0.00       10     0.00     0.00  int* std::__copy_move_a2<true, int*, int*>(int*, int*, int*)
+  0.00      0.00     0.00       10     0.00     0.00  Task* std::uninitialized_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*)
+  0.00      0.00     0.00       10     0.00     0.00  int* std::uninitialized_copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*)
+  0.00      0.00     0.00       10     0.00     0.00  Task* std::__uninitialized_copy_a<std::move_iterator<Task*>, Task*, Task>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*, std::allocator<Task>&)
+  0.00      0.00     0.00       10     0.00     0.00  int* std::__uninitialized_copy_a<std::move_iterator<int*>, int*, int>(std::move_iterator<int*>, std::move_iterator<int*>, int*, std::allocator<int>&)
+  0.00      0.00     0.00       10     0.00     0.00  Task* std::__uninitialized_move_if_noexcept_a<Task*, Task*, std::allocator<Task> >(Task*, Task*, Task*, std::allocator<Task>&)
+  0.00      0.00     0.00       10     0.00     0.00  int* std::__uninitialized_move_if_noexcept_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&)
+  0.00      0.00     0.00       10     0.00     0.00  int* std::copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*)
+  0.00      0.00     0.00       10     0.00     0.00  std::remove_reference<Task&>::type&& std::move<Task&>(Task&)
+  0.00      0.00     0.00        9     0.00     0.00  std::vector<Task, std::allocator<Task> >::operator[](unsigned int)
+  0.00      0.00     0.00        9     0.00     0.00  std::vector<int, std::allocator<int> >::operator[](unsigned int)
+  0.00      0.00     0.00        8     0.00     0.00  __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::__normal_iterator(ClubMember* const&)
+  0.00      0.00     0.00        8     0.00     0.00  std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_get_Tp_allocator() const
+  0.00      0.00     0.00        8     0.00     0.00  std::vector<ClubMember, std::allocator<ClubMember> >::max_size() const
+  0.00      0.00     0.00        8     0.00     0.00  std::allocator_traits<std::allocator<ClubMember> >::max_size(std::allocator<ClubMember> const&)
+  0.00      0.00     0.00        8     0.00     0.00  ClubMember* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*)
+  0.00      0.00     0.00        8     0.00     0.00  ClubMember* std::uninitialized_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*)
+  0.00      0.00     0.00        8     0.00     0.00  ClubMember* std::__uninitialized_copy_a<std::move_iterator<ClubMember*>, ClubMember*, ClubMember>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*, std::allocator<ClubMember>&)
+  0.00      0.00     0.00        8     0.00     0.00  ClubMember* std::__uninitialized_move_if_noexcept_a<ClubMember*, ClubMember*, std::allocator<ClubMember> >(ClubMember*, ClubMember*, ClubMember*, std::allocator<ClubMember>&)
+  0.00      0.00     0.00        7     0.00     0.00  std::move_iterator<ClubMember*>::operator*() const
+  0.00      0.00     0.00        7     0.00     0.00  std::move_iterator<ClubMember*>::operator++()
+  0.00      0.00     0.00        7     0.00     0.00  void std::_Construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&)
+  0.00      0.00     0.00        6     0.00     0.00  void std::_Destroy_aux<false>::__destroy<Task*>(Task*, Task*)
+  0.00      0.00     0.00        6     0.00     0.00  void std::_Destroy_aux<true>::__destroy<int*>(int*, int*)
+  0.00      0.00     0.00        6     0.00     0.00  std::_Vector_base<Task, std::allocator<Task> >::_M_deallocate(Task*, unsigned int)
+  0.00      0.00     0.00        6     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int)
+  0.00      0.00     0.00        6     0.00     0.00  void std::_Destroy<Task*>(Task*, Task*)
+  0.00      0.00     0.00        6     0.00     0.00  void std::_Destroy<Task*, Task>(Task*, Task*, std::allocator<Task>&)
+  0.00      0.00     0.00        6     0.00     0.00  void std::_Destroy<int*>(int*, int*)
+  0.00      0.00     0.00        6     0.00     0.00  void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
+  0.00      0.00     0.00        5     0.00     0.00  ClubMember::ClubMember(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)
+  0.00      0.00     0.00        5     0.00     0.00  void __gnu_cxx::new_allocator<ClubMember>::construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&)
+  0.00      0.00     0.00        5     0.00     0.00  __gnu_cxx::new_allocator<Task>::deallocate(Task*, unsigned int)
+  0.00      0.00     0.00        5     0.00     0.00  __gnu_cxx::new_allocator<Task>::allocate(unsigned int, void const*)
+  0.00      0.00     0.00        5     0.00     0.00  __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned int)
+  0.00      0.00     0.00        5     0.00     0.00  __gnu_cxx::new_allocator<int>::allocate(unsigned int, void const*)
+  0.00      0.00     0.00        5     0.00     0.00  __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::difference_type __gnu_cxx::operator-<Task*, std::vector<Task, std::allocator<Task> > >(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > > const&, __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > > const&)
+  0.00      0.00     0.00        5     0.00     0.00  __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&)
+  0.00      0.00     0.00        5     0.00     0.00  std::vector<Task, std::allocator<Task> >::_M_check_len(unsigned int, char const*) const
+  0.00      0.00     0.00        5     0.00     0.00  std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const
+  0.00      0.00     0.00        5     0.00     0.00  void std::_Destroy_aux<false>::__destroy<ClubMember*>(ClubMember*, ClubMember*)
+  0.00      0.00     0.00        5     0.00     0.00  std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_deallocate(ClubMember*, unsigned int)
+  0.00      0.00     0.00        5     0.00     0.00  std::_Vector_base<Task, std::allocator<Task> >::_M_allocate(unsigned int)
+  0.00      0.00     0.00        5     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned int)
+  0.00      0.00     0.00        5     0.00     0.00  void std::allocator_traits<std::allocator<ClubMember> >::construct<ClubMember, ClubMember>(std::allocator<ClubMember>&, ClubMember*, ClubMember&&)
+  0.00      0.00     0.00        5     0.00     0.00  std::allocator_traits<std::allocator<Task> >::deallocate(std::allocator<Task>&, Task*, unsigned int)
+  0.00      0.00     0.00        5     0.00     0.00  std::allocator_traits<std::allocator<Task> >::allocate(std::allocator<Task>&, unsigned int)
+  0.00      0.00     0.00        5     0.00     0.00  std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned int)
+  0.00      0.00     0.00        5     0.00     0.00  std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned int)
+  0.00      0.00     0.00        5     0.00     0.00  void std::vector<ClubMember, std::allocator<ClubMember> >::emplace_back<ClubMember>(ClubMember&&)
+  0.00      0.00     0.00        5     0.00     0.00  std::vector<ClubMember, std::allocator<ClubMember> >::push_back(ClubMember&&)
+  0.00      0.00     0.00        5     0.00     0.00  void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&)
+  0.00      0.00     0.00        5     0.00     0.00  std::vector<Task, std::allocator<Task> >::end()
+  0.00      0.00     0.00        5     0.00     0.00  std::vector<Task, std::allocator<Task> >::begin()
+  0.00      0.00     0.00        5     0.00     0.00  void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+  0.00      0.00     0.00        5     0.00     0.00  std::vector<int, std::allocator<int> >::end()
+  0.00      0.00     0.00        5     0.00     0.00  std::vector<int, std::allocator<int> >::begin()
+  0.00      0.00     0.00        5     0.00     0.00  std::remove_reference<ClubMember&>::type&& std::move<ClubMember&>(ClubMember&)
+  0.00      0.00     0.00        5     0.00     0.00  std::setw(int)
+  0.00      0.00     0.00        5     0.00     0.00  void std::_Destroy<ClubMember*>(ClubMember*, ClubMember*)
+  0.00      0.00     0.00        5     0.00     0.00  void std::_Destroy<ClubMember*, ClubMember>(ClubMember*, ClubMember*, std::allocator<ClubMember>&)
+  0.00      0.00     0.00        4     0.00     0.00  __gnu_cxx::new_allocator<ClubMember>::deallocate(ClubMember*, unsigned int)
+  0.00      0.00     0.00        4     0.00     0.00  __gnu_cxx::new_allocator<ClubMember>::allocate(unsigned int, void const*)
+  0.00      0.00     0.00        4     0.00     0.00  __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::difference_type __gnu_cxx::operator-<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > > const&, __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > > const&)
+  0.00      0.00     0.00        4     0.00     0.00  std::vector<ClubMember, std::allocator<ClubMember> >::_M_check_len(unsigned int, char const*) const
+  0.00      0.00     0.00        4     0.00     0.00  std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_allocate(unsigned int)
+  0.00      0.00     0.00        4     0.00     0.00  std::allocator_traits<std::allocator<ClubMember> >::deallocate(std::allocator<ClubMember>&, ClubMember*, unsigned int)
+  0.00      0.00     0.00        4     0.00     0.00  std::allocator_traits<std::allocator<ClubMember> >::allocate(std::allocator<ClubMember>&, unsigned int)
+  0.00      0.00     0.00        4     0.00     0.00  void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&)
+  0.00      0.00     0.00        4     0.00     0.00  std::vector<ClubMember, std::allocator<ClubMember> >::end()
+  0.00      0.00     0.00        4     0.00     0.00  std::vector<ClubMember, std::allocator<ClubMember> >::begin()
+  0.00      0.00     0.00        3     0.00     0.00  std::_Bit_iterator::_Bit_iterator()
+  0.00      0.00     0.00        3     0.00     0.00  unsigned long* std::__addressof<unsigned long>(unsigned long&)
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::~new_allocator()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const
+  0.00      0.00     0.00        2     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned int)
+  0.00      0.00     0.00        1     0.00     0.00  Club::take_input()
+  0.00      0.00     0.00        1     0.00     0.00  Club::kthPermutation(int, long long)
+  0.00      0.00     0.00        1     0.00     0.00  Club::show_allotment()
+  0.00      0.00     0.00        1     0.00     0.00  Club::kthPermutationUtil(std::vector<int, std::allocator<int> >&, std::vector<bool, std::allocator<bool> >&, int, int, long long)
+  0.00      0.00     0.00        1     0.00     0.00  Club::Club()
+  0.00      0.00     0.00        1     0.00     0.00  Club::~Club()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<ClubMember>::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<ClubMember>::~new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<Task>::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<Task>::~new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<bool>::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<bool>::~new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<int>::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<int>::~new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned int)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned int, void const*)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::new_allocator(__gnu_cxx::new_allocator<unsigned long> const&)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::max_size() const
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bit_iterator::operator+(int) const
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<ClubMember>::allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<ClubMember>::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<Task>::allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<Task>::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<bool>::allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<bool>::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<int>::allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<int>::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<unsigned long>::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<unsigned long>::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_impl::_Vector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<ClubMember, std::allocator<ClubMember> >::~_Vector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<Task, std::allocator<Task> >::_Vector_impl::_Vector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<Task, std::allocator<Task> >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<Task, std::allocator<Task> >::_Vector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<Task, std::allocator<Task> >::~_Vector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::~_Vector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bit_iterator::operator+=(int)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned int)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_M_deallocate()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::~_Bvector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned int)
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned int)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bit_iterator_base::_M_incr(int)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<ClubMember, std::allocator<ClubMember> >::vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<ClubMember, std::allocator<ClubMember> >::~vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Task, std::allocator<Task> >::vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<Task, std::allocator<Task> >::~vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned int)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<bool, std::allocator<bool> >::vector(unsigned int, bool const&, std::allocator<bool> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<bool, std::allocator<bool> >::~vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<int, std::allocator<int> >::vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<int, std::allocator<int> >::~vector()
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00       3/69          std::_Bit_iterator::_Bit_iterator() [146]
+                0.00    0.00      66/69          std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) [3]
+[2]      0.0    0.00    0.00      69         std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) [2]
+-----------------------------------------------
+                0.00    0.00       1/66          std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned int) [211]
+                0.00    0.00      65/66          std::vector<bool, std::allocator<bool> >::operator[](unsigned int) [6]
+[3]      0.0    0.00    0.00      66         std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) [3]
+                0.00    0.00      66/69          std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) [2]
+-----------------------------------------------
+                0.00    0.00      65/65          std::vector<bool, std::allocator<bool> >::operator[](unsigned int) [6]
+[4]      0.0    0.00    0.00      65         std::_Bit_iterator::operator*() const [4]
+                0.00    0.00      65/65          std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long) [5]
+-----------------------------------------------
+                0.00    0.00      65/65          std::_Bit_iterator::operator*() const [4]
+[5]      0.0    0.00    0.00      65         std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long) [5]
+-----------------------------------------------
+                0.00    0.00      65/65          Club::kthPermutationUtil(std::vector<int, std::allocator<int> >&, std::vector<bool, std::allocator<bool> >&, int, int, long long) [154]
+[6]      0.0    0.00    0.00      65         std::vector<bool, std::allocator<bool> >::operator[](unsigned int) [6]
+                0.00    0.00      65/66          std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) [3]
+                0.00    0.00      65/65          std::_Bit_iterator::operator*() const [4]
+-----------------------------------------------
+                0.00    0.00      55/55          Club::kthPermutationUtil(std::vector<int, std::allocator<int> >&, std::vector<bool, std::allocator<bool> >&, int, int, long long) [154]
+[7]      0.0    0.00    0.00      55         std::_Bit_reference::operator bool() const [7]
+-----------------------------------------------
+                0.00    0.00      50/50          bool std::operator==<Task*>(std::move_iterator<Task*> const&, std::move_iterator<Task*> const&) [19]
+[8]      0.0    0.00    0.00      50         std::move_iterator<Task*>::base() const [8]
+-----------------------------------------------
+                0.00    0.00       5/50          void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+                0.00    0.00      10/50          void __gnu_cxx::new_allocator<Task>::construct<Task, Task>(Task*, Task&&) [55]
+                0.00    0.00      10/50          void std::allocator_traits<std::allocator<Task> >::construct<Task, Task>(std::allocator<Task>&, Task*, Task&&) [66]
+                0.00    0.00      10/50          void std::vector<Task, std::allocator<Task> >::emplace_back<Task>(Task&&) [71]
+                0.00    0.00      15/50          void std::_Construct<Task, Task>(Task*, Task&&) [45]
+[9]      0.0    0.00    0.00      50         Task&& std::forward<Task>(std::remove_reference<Task>::type&) [9]
+-----------------------------------------------
+                0.00    0.00       5/47          void __gnu_cxx::new_allocator<ClubMember>::construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&) [106]
+                0.00    0.00       7/47          void std::_Construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&) [96]
+                0.00    0.00      10/47          void __gnu_cxx::new_allocator<Task>::construct<Task, Task>(Task*, Task&&) [55]
+                0.00    0.00      10/47          void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&) [56]
+                0.00    0.00      15/47          void std::_Construct<Task, Task>(Task*, Task&&) [45]
+[10]     0.0    0.00    0.00      47         operator new(unsigned int, void*) [10]
+-----------------------------------------------
+                0.00    0.00      15/40          Task* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*) [69]
+                0.00    0.00      25/40          void std::_Destroy_aux<false>::__destroy<Task*>(Task*, Task*) [97]
+[11]     0.0    0.00    0.00      40         Task* std::__addressof<Task>(Task&) [11]
+-----------------------------------------------
+                0.00    0.00      10/35          _fu15___ZSt3cin [303]
+                0.00    0.00      25/35          void std::_Destroy<Task>(Task*) [18]
+[12]     0.0    0.00    0.00      35         Task::~Task() [12]
+-----------------------------------------------
+                0.00    0.00      30/30          bool std::operator==<ClubMember*>(std::move_iterator<ClubMember*> const&, std::move_iterator<ClubMember*> const&) [46]
+[13]     0.0    0.00    0.00      30         std::move_iterator<ClubMember*>::base() const [13]
+-----------------------------------------------
+                0.00    0.00      30/30          int* std::__copy_move_a2<true, int*, int*>(int*, int*, int*) [75]
+[14]     0.0    0.00    0.00      30         int* std::__niter_base<int*>(int*) [14]
+-----------------------------------------------
+                0.00    0.00       4/26          void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+                0.00    0.00       5/26          void __gnu_cxx::new_allocator<ClubMember>::construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&) [106]
+                0.00    0.00       5/26          void std::allocator_traits<std::allocator<ClubMember> >::construct<ClubMember, ClubMember>(std::allocator<ClubMember>&, ClubMember*, ClubMember&&) [119]
+                0.00    0.00       5/26          void std::vector<ClubMember, std::allocator<ClubMember> >::emplace_back<ClubMember>(ClubMember&&) [124]
+                0.00    0.00       7/26          void std::_Construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&) [96]
+[15]     0.0    0.00    0.00      26         ClubMember&& std::forward<ClubMember>(std::remove_reference<ClubMember>::type&) [15]
+-----------------------------------------------
+                0.00    0.00      10/25          void __gnu_cxx::new_allocator<Task>::construct<Task, Task>(Task*, Task&&) [55]
+                0.00    0.00      15/25          void std::_Construct<Task, Task>(Task*, Task&&) [45]
+[16]     0.0    0.00    0.00      25         Task::Task(Task&&) [16]
+-----------------------------------------------
+                0.00    0.00       5/25          void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+                0.00    0.00      10/25          void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&) [56]
+                0.00    0.00      10/25          void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&) [68]
+[17]     0.0    0.00    0.00      25         int const& std::forward<int const&>(std::remove_reference<int const&>::type&) [17]
+-----------------------------------------------
+                0.00    0.00      25/25          void std::_Destroy_aux<false>::__destroy<Task*>(Task*, Task*) [97]
+[18]     0.0    0.00    0.00      25         void std::_Destroy<Task>(Task*) [18]
+                0.00    0.00      25/35          Task::~Task() [12]
+-----------------------------------------------
+                0.00    0.00      25/25          bool std::operator!=<Task*>(std::move_iterator<Task*> const&, std::move_iterator<Task*> const&) [20]
+[19]     0.0    0.00    0.00      25         bool std::operator==<Task*>(std::move_iterator<Task*> const&, std::move_iterator<Task*> const&) [19]
+                0.00    0.00      50/50          std::move_iterator<Task*>::base() const [8]
+-----------------------------------------------
+                0.00    0.00      25/25          Task* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*) [69]
+[20]     0.0    0.00    0.00      25         bool std::operator!=<Task*>(std::move_iterator<Task*> const&, std::move_iterator<Task*> const&) [20]
+                0.00    0.00      25/25          bool std::operator==<Task*>(std::move_iterator<Task*> const&, std::move_iterator<Task*> const&) [19]
+-----------------------------------------------
+                0.00    0.00       5/24          _fu2___ZSt4cout [305]
+                0.00    0.00      19/24          _fu0___ZSt4cout [297]
+[21]     0.0    0.00    0.00      24         std::vector<ClubMember, std::allocator<ClubMember> >::operator[](unsigned int) [21]
+-----------------------------------------------
+                0.00    0.00       1/21          Club::show_allotment() [153]
+                0.00    0.00      20/21          std::vector<Task, std::allocator<Task> >::_M_check_len(unsigned int, char const*) const [113]
+[22]     0.0    0.00    0.00      21         std::vector<Task, std::allocator<Task> >::size() const [22]
+-----------------------------------------------
+                0.00    0.00      10/20          __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::difference_type __gnu_cxx::operator-<Task*, std::vector<Task, std::allocator<Task> > >(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > > const&, __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > > const&) [111]
+                0.00    0.00      10/20          void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+[23]     0.0    0.00    0.00      20         __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::base() const [23]
+-----------------------------------------------
+                0.00    0.00      10/20          __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&) [112]
+                0.00    0.00      10/20          void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+[24]     0.0    0.00    0.00      20         __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const [24]
+-----------------------------------------------
+                0.00    0.00      20/20          decltype (__miter_base(({parm#1}.base)())) std::__miter_base<int*>(std::move_iterator<int*>) [29]
+[25]     0.0    0.00    0.00      20         std::move_iterator<int*>::base() const [25]
+-----------------------------------------------
+                0.00    0.00      20/20          std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [114]
+[26]     0.0    0.00    0.00      20         std::vector<int, std::allocator<int> >::size() const [26]
+-----------------------------------------------
+                0.00    0.00      20/20          std::move_iterator<Task*> std::__make_move_if_noexcept_iterator<Task, std::move_iterator<Task*> >(Task*) [31]
+[27]     0.0    0.00    0.00      20         std::move_iterator<Task*>::move_iterator(Task*) [27]
+-----------------------------------------------
+                0.00    0.00      20/20          std::move_iterator<int*> std::__make_move_if_noexcept_iterator<int, std::move_iterator<int*> >(int*) [32]
+[28]     0.0    0.00    0.00      20         std::move_iterator<int*>::move_iterator(int*) [28]
+-----------------------------------------------
+                0.00    0.00      20/20          int* std::copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*) [82]
+[29]     0.0    0.00    0.00      20         decltype (__miter_base(({parm#1}.base)())) std::__miter_base<int*>(std::move_iterator<int*>) [29]
+                0.00    0.00      20/20          std::move_iterator<int*>::base() const [25]
+                0.00    0.00      20/20          int* std::__miter_base<int*>(int*) [30]
+-----------------------------------------------
+                0.00    0.00      20/20          decltype (__miter_base(({parm#1}.base)())) std::__miter_base<int*>(std::move_iterator<int*>) [29]
+[30]     0.0    0.00    0.00      20         int* std::__miter_base<int*>(int*) [30]
+-----------------------------------------------
+                0.00    0.00      20/20          Task* std::__uninitialized_move_if_noexcept_a<Task*, Task*, std::allocator<Task> >(Task*, Task*, Task*, std::allocator<Task>&) [80]
+[31]     0.0    0.00    0.00      20         std::move_iterator<Task*> std::__make_move_if_noexcept_iterator<Task, std::move_iterator<Task*> >(Task*) [31]
+                0.00    0.00      20/20          std::move_iterator<Task*>::move_iterator(Task*) [27]
+-----------------------------------------------
+                0.00    0.00      20/20          int* std::__uninitialized_move_if_noexcept_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&) [81]
+[32]     0.0    0.00    0.00      20         std::move_iterator<int*> std::__make_move_if_noexcept_iterator<int, std::move_iterator<int*> >(int*) [32]
+                0.00    0.00      20/20          std::move_iterator<int*>::move_iterator(int*) [28]
+-----------------------------------------------
+                0.00    0.00       7/19          ClubMember* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*) [90]
+                0.00    0.00      12/19          void std::_Destroy_aux<false>::__destroy<ClubMember*>(ClubMember*, ClubMember*) [115]
+[33]     0.0    0.00    0.00      19         ClubMember* std::__addressof<ClubMember>(ClubMember&) [33]
+-----------------------------------------------
+                0.00    0.00       5/17          _fu12___ZSt3cin [300]
+                0.00    0.00      12/17          void std::_Destroy<ClubMember>(ClubMember*) [52]
+[34]     0.0    0.00    0.00      17         ClubMember::~ClubMember() [34]
+-----------------------------------------------
+                0.00    0.00       1/17          Club::show_allotment() [153]
+                0.00    0.00      16/17          std::vector<ClubMember, std::allocator<ClubMember> >::_M_check_len(unsigned int, char const*) const [139]
+[35]     0.0    0.00    0.00      17         std::vector<ClubMember, std::allocator<ClubMember> >::size() const [35]
+-----------------------------------------------
+                0.00    0.00       8/16          __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::difference_type __gnu_cxx::operator-<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > > const&, __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > > const&) [138]
+                0.00    0.00       8/16          void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+[36]     0.0    0.00    0.00      16         __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::base() const [36]
+-----------------------------------------------
+                0.00    0.00       1/16          std::vector<Task, std::allocator<Task> >::~vector() [210]
+                0.00    0.00      15/16          void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+[37]     0.0    0.00    0.00      16         std::_Vector_base<Task, std::allocator<Task> >::_M_get_Tp_allocator() [37]
+-----------------------------------------------
+                0.00    0.00       1/16          std::vector<int, std::allocator<int> >::~vector() [216]
+                0.00    0.00      15/16          void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+[38]     0.0    0.00    0.00      16         std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [38]
+-----------------------------------------------
+                0.00    0.00      16/16          std::move_iterator<ClubMember*> std::__make_move_if_noexcept_iterator<ClubMember, std::move_iterator<ClubMember*> >(ClubMember*) [40]
+[39]     0.0    0.00    0.00      16         std::move_iterator<ClubMember*>::move_iterator(ClubMember*) [39]
+-----------------------------------------------
+                0.00    0.00      16/16          ClubMember* std::__uninitialized_move_if_noexcept_a<ClubMember*, ClubMember*, std::allocator<ClubMember> >(ClubMember*, ClubMember*, ClubMember*, std::allocator<ClubMember>&) [93]
+[40]     0.0    0.00    0.00      16         std::move_iterator<ClubMember*> std::__make_move_if_noexcept_iterator<ClubMember, std::move_iterator<ClubMember*> >(ClubMember*) [40]
+                0.00    0.00      16/16          std::move_iterator<ClubMember*>::move_iterator(ClubMember*) [39]
+-----------------------------------------------
+                0.00    0.00       5/15          __gnu_cxx::new_allocator<Task>::allocate(unsigned int, void const*) [108]
+                0.00    0.00      10/15          std::allocator_traits<std::allocator<Task> >::max_size(std::allocator<Task> const&) [65]
+[41]     0.0    0.00    0.00      15         __gnu_cxx::new_allocator<Task>::max_size() const [41]
+-----------------------------------------------
+                0.00    0.00       5/15          __gnu_cxx::new_allocator<int>::allocate(unsigned int, void const*) [110]
+                0.00    0.00      10/15          std::allocator_traits<std::allocator<int> >::max_size(std::allocator<int> const&) [67]
+[42]     0.0    0.00    0.00      15         __gnu_cxx::new_allocator<int>::max_size() const [42]
+-----------------------------------------------
+                0.00    0.00      15/15          Task* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*) [69]
+[43]     0.0    0.00    0.00      15         std::move_iterator<Task*>::operator*() const [43]
+-----------------------------------------------
+                0.00    0.00      15/15          Task* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*) [69]
+[44]     0.0    0.00    0.00      15         std::move_iterator<Task*>::operator++() [44]
+-----------------------------------------------
+                0.00    0.00      15/15          Task* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*) [69]
+[45]     0.0    0.00    0.00      15         void std::_Construct<Task, Task>(Task*, Task&&) [45]
+                0.00    0.00      15/50          Task&& std::forward<Task>(std::remove_reference<Task>::type&) [9]
+                0.00    0.00      15/47          operator new(unsigned int, void*) [10]
+                0.00    0.00      15/25          Task::Task(Task&&) [16]
+-----------------------------------------------
+                0.00    0.00      15/15          bool std::operator!=<ClubMember*>(std::move_iterator<ClubMember*> const&, std::move_iterator<ClubMember*> const&) [47]
+[46]     0.0    0.00    0.00      15         bool std::operator==<ClubMember*>(std::move_iterator<ClubMember*> const&, std::move_iterator<ClubMember*> const&) [46]
+                0.00    0.00      30/30          std::move_iterator<ClubMember*>::base() const [13]
+-----------------------------------------------
+                0.00    0.00      15/15          ClubMember* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*) [90]
+[47]     0.0    0.00    0.00      15         bool std::operator!=<ClubMember*>(std::move_iterator<ClubMember*> const&, std::move_iterator<ClubMember*> const&) [47]
+                0.00    0.00      15/15          bool std::operator==<ClubMember*>(std::move_iterator<ClubMember*> const&, std::move_iterator<ClubMember*> const&) [46]
+-----------------------------------------------
+                0.00    0.00       4/14          std::vector<ClubMember, std::allocator<ClubMember> >::_M_check_len(unsigned int, char const*) const [139]
+                0.00    0.00       5/14          std::vector<Task, std::allocator<Task> >::_M_check_len(unsigned int, char const*) const [113]
+                0.00    0.00       5/14          std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [114]
+[48]     0.0    0.00    0.00      14         unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&) [48]
+-----------------------------------------------
+                0.00    0.00       1/13          std::vector<ClubMember, std::allocator<ClubMember> >::~vector() [208]
+                0.00    0.00      12/13          void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+[49]     0.0    0.00    0.00      13         std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_get_Tp_allocator() [49]
+-----------------------------------------------
+                0.00    0.00       5/12          void __gnu_cxx::new_allocator<ClubMember>::construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&) [106]
+                0.00    0.00       7/12          void std::_Construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&) [96]
+[50]     0.0    0.00    0.00      12         ClubMember::ClubMember(ClubMember&&) [50]
+-----------------------------------------------
+                0.00    0.00       4/12          __gnu_cxx::new_allocator<ClubMember>::allocate(unsigned int, void const*) [137]
+                0.00    0.00       8/12          std::allocator_traits<std::allocator<ClubMember> >::max_size(std::allocator<ClubMember> const&) [89]
+[51]     0.0    0.00    0.00      12         __gnu_cxx::new_allocator<ClubMember>::max_size() const [51]
+-----------------------------------------------
+                0.00    0.00      12/12          void std::_Destroy_aux<false>::__destroy<ClubMember*>(ClubMember*, ClubMember*) [115]
+[52]     0.0    0.00    0.00      12         void std::_Destroy<ClubMember>(ClubMember*) [52]
+                0.00    0.00      12/17          ClubMember::~ClubMember() [34]
+-----------------------------------------------
+                0.00    0.00       1/11          Club::show_allotment() [153]
+                0.00    0.00      10/11          Club::kthPermutationUtil(std::vector<int, std::allocator<int> >&, std::vector<bool, std::allocator<bool> >&, int, int, long long) [154]
+[53]     0.0    0.00    0.00      11         Club::factorial(int) [53]
+-----------------------------------------------
+                0.00    0.00      10/10          _fu15___ZSt3cin [303]
+[54]     0.0    0.00    0.00      10         Task::Task(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [54]
+-----------------------------------------------
+                0.00    0.00      10/10          void std::allocator_traits<std::allocator<Task> >::construct<Task, Task>(std::allocator<Task>&, Task*, Task&&) [66]
+[55]     0.0    0.00    0.00      10         void __gnu_cxx::new_allocator<Task>::construct<Task, Task>(Task*, Task&&) [55]
+                0.00    0.00      10/50          Task&& std::forward<Task>(std::remove_reference<Task>::type&) [9]
+                0.00    0.00      10/47          operator new(unsigned int, void*) [10]
+                0.00    0.00      10/25          Task::Task(Task&&) [16]
+-----------------------------------------------
+                0.00    0.00      10/10          void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&) [68]
+[56]     0.0    0.00    0.00      10         void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&) [56]
+                0.00    0.00      10/25          int const& std::forward<int const&>(std::remove_reference<int const&>::type&) [17]
+                0.00    0.00      10/47          operator new(unsigned int, void*) [10]
+-----------------------------------------------
+                0.00    0.00       5/10          std::vector<Task, std::allocator<Task> >::end() [127]
+                0.00    0.00       5/10          std::vector<Task, std::allocator<Task> >::begin() [128]
+[57]     0.0    0.00    0.00      10         __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::__normal_iterator(Task* const&) [57]
+-----------------------------------------------
+                0.00    0.00       5/10          std::vector<int, std::allocator<int> >::end() [130]
+                0.00    0.00       5/10          std::vector<int, std::allocator<int> >::begin() [131]
+[58]     0.0    0.00    0.00      10         __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::__normal_iterator(int* const&) [58]
+-----------------------------------------------
+                0.00    0.00      10/10          std::vector<Task, std::allocator<Task> >::max_size() const [61]
+[59]     0.0    0.00    0.00      10         std::_Vector_base<Task, std::allocator<Task> >::_M_get_Tp_allocator() const [59]
+-----------------------------------------------
+                0.00    0.00      10/10          std::vector<int, std::allocator<int> >::max_size() const [62]
+[60]     0.0    0.00    0.00      10         std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() const [60]
+-----------------------------------------------
+                0.00    0.00      10/10          std::vector<Task, std::allocator<Task> >::_M_check_len(unsigned int, char const*) const [113]
+[61]     0.0    0.00    0.00      10         std::vector<Task, std::allocator<Task> >::max_size() const [61]
+                0.00    0.00      10/10          std::_Vector_base<Task, std::allocator<Task> >::_M_get_Tp_allocator() const [59]
+                0.00    0.00      10/10          std::allocator_traits<std::allocator<Task> >::max_size(std::allocator<Task> const&) [65]
+-----------------------------------------------
+                0.00    0.00      10/10          std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [114]
+[62]     0.0    0.00    0.00      10         std::vector<int, std::allocator<int> >::max_size() const [62]
+                0.00    0.00      10/10          std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() const [60]
+                0.00    0.00      10/10          std::allocator_traits<std::allocator<int> >::max_size(std::allocator<int> const&) [67]
+-----------------------------------------------
+                0.00    0.00      10/10          int* std::__copy_move_a<true, int*, int*>(int*, int*, int*) [74]
+[63]     0.0    0.00    0.00      10         int* std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<int>(int const*, int const*, int*) [63]
+-----------------------------------------------
+                0.00    0.00      10/10          Club::kthPermutationUtil(std::vector<int, std::allocator<int> >&, std::vector<bool, std::allocator<bool> >&, int, int, long long) [154]
+[64]     0.0    0.00    0.00      10         std::_Bit_reference::operator=(bool) [64]
+-----------------------------------------------
+                0.00    0.00      10/10          std::vector<Task, std::allocator<Task> >::max_size() const [61]
+[65]     0.0    0.00    0.00      10         std::allocator_traits<std::allocator<Task> >::max_size(std::allocator<Task> const&) [65]
+                0.00    0.00      10/15          __gnu_cxx::new_allocator<Task>::max_size() const [41]
+-----------------------------------------------
+                0.00    0.00       5/10          void std::vector<Task, std::allocator<Task> >::emplace_back<Task>(Task&&) [71]
+                0.00    0.00       5/10          void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+[66]     0.0    0.00    0.00      10         void std::allocator_traits<std::allocator<Task> >::construct<Task, Task>(std::allocator<Task>&, Task*, Task&&) [66]
+                0.00    0.00      10/50          Task&& std::forward<Task>(std::remove_reference<Task>::type&) [9]
+                0.00    0.00      10/10          void __gnu_cxx::new_allocator<Task>::construct<Task, Task>(Task*, Task&&) [55]
+-----------------------------------------------
+                0.00    0.00      10/10          std::vector<int, std::allocator<int> >::max_size() const [62]
+[67]     0.0    0.00    0.00      10         std::allocator_traits<std::allocator<int> >::max_size(std::allocator<int> const&) [67]
+                0.00    0.00      10/15          __gnu_cxx::new_allocator<int>::max_size() const [42]
+-----------------------------------------------
+                0.00    0.00       5/10          void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+                0.00    0.00       5/10          std::vector<int, std::allocator<int> >::push_back(int const&) [73]
+[68]     0.0    0.00    0.00      10         void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&) [68]
+                0.00    0.00      10/25          int const& std::forward<int const&>(std::remove_reference<int const&>::type&) [17]
+                0.00    0.00      10/10          void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&) [56]
+-----------------------------------------------
+                0.00    0.00      10/10          Task* std::uninitialized_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*) [76]
+[69]     0.0    0.00    0.00      10         Task* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*) [69]
+                0.00    0.00      25/25          bool std::operator!=<Task*>(std::move_iterator<Task*> const&, std::move_iterator<Task*> const&) [20]
+                0.00    0.00      15/15          std::move_iterator<Task*>::operator*() const [43]
+                0.00    0.00      15/40          Task* std::__addressof<Task>(Task&) [11]
+                0.00    0.00      15/15          void std::_Construct<Task, Task>(Task*, Task&&) [45]
+                0.00    0.00      15/15          std::move_iterator<Task*>::operator++() [44]
+-----------------------------------------------
+                0.00    0.00      10/10          int* std::uninitialized_copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*) [77]
+[70]     0.0    0.00    0.00      10         int* std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*) [70]
+                0.00    0.00      10/10          int* std::copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*) [82]
+-----------------------------------------------
+                0.00    0.00      10/10          std::vector<Task, std::allocator<Task> >::push_back(Task&&) [72]
+[71]     0.0    0.00    0.00      10         void std::vector<Task, std::allocator<Task> >::emplace_back<Task>(Task&&) [71]
+                0.00    0.00      10/50          Task&& std::forward<Task>(std::remove_reference<Task>::type&) [9]
+                0.00    0.00       5/10          void std::allocator_traits<std::allocator<Task> >::construct<Task, Task>(std::allocator<Task>&, Task*, Task&&) [66]
+                0.00    0.00       5/5           std::vector<Task, std::allocator<Task> >::end() [127]
+                0.00    0.00       5/5           void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+-----------------------------------------------
+                0.00    0.00      10/10          _fu15___ZSt3cin [303]
+[72]     0.0    0.00    0.00      10         std::vector<Task, std::allocator<Task> >::push_back(Task&&) [72]
+                0.00    0.00      10/10          std::remove_reference<Task&>::type&& std::move<Task&>(Task&) [83]
+                0.00    0.00      10/10          void std::vector<Task, std::allocator<Task> >::emplace_back<Task>(Task&&) [71]
+-----------------------------------------------
+                0.00    0.00      10/10          Club::kthPermutationUtil(std::vector<int, std::allocator<int> >&, std::vector<bool, std::allocator<bool> >&, int, int, long long) [154]
+[73]     0.0    0.00    0.00      10         std::vector<int, std::allocator<int> >::push_back(int const&) [73]
+                0.00    0.00       5/10          void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&) [68]
+                0.00    0.00       5/5           std::vector<int, std::allocator<int> >::end() [130]
+                0.00    0.00       5/5           void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+-----------------------------------------------
+                0.00    0.00      10/10          int* std::__copy_move_a2<true, int*, int*>(int*, int*, int*) [75]
+[74]     0.0    0.00    0.00      10         int* std::__copy_move_a<true, int*, int*>(int*, int*, int*) [74]
+                0.00    0.00      10/10          int* std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<int>(int const*, int const*, int*) [63]
+-----------------------------------------------
+                0.00    0.00      10/10          int* std::copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*) [82]
+[75]     0.0    0.00    0.00      10         int* std::__copy_move_a2<true, int*, int*>(int*, int*, int*) [75]
+                0.00    0.00      30/30          int* std::__niter_base<int*>(int*) [14]
+                0.00    0.00      10/10          int* std::__copy_move_a<true, int*, int*>(int*, int*, int*) [74]
+-----------------------------------------------
+                0.00    0.00      10/10          Task* std::__uninitialized_copy_a<std::move_iterator<Task*>, Task*, Task>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*, std::allocator<Task>&) [78]
+[76]     0.0    0.00    0.00      10         Task* std::uninitialized_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*) [76]
+                0.00    0.00      10/10          Task* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*) [69]
+-----------------------------------------------
+                0.00    0.00      10/10          int* std::__uninitialized_copy_a<std::move_iterator<int*>, int*, int>(std::move_iterator<int*>, std::move_iterator<int*>, int*, std::allocator<int>&) [79]
+[77]     0.0    0.00    0.00      10         int* std::uninitialized_copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*) [77]
+                0.00    0.00      10/10          int* std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*) [70]
+-----------------------------------------------
+                0.00    0.00      10/10          Task* std::__uninitialized_move_if_noexcept_a<Task*, Task*, std::allocator<Task> >(Task*, Task*, Task*, std::allocator<Task>&) [80]
+[78]     0.0    0.00    0.00      10         Task* std::__uninitialized_copy_a<std::move_iterator<Task*>, Task*, Task>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*, std::allocator<Task>&) [78]
+                0.00    0.00      10/10          Task* std::uninitialized_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*) [76]
+-----------------------------------------------
+                0.00    0.00      10/10          int* std::__uninitialized_move_if_noexcept_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&) [81]
+[79]     0.0    0.00    0.00      10         int* std::__uninitialized_copy_a<std::move_iterator<int*>, int*, int>(std::move_iterator<int*>, std::move_iterator<int*>, int*, std::allocator<int>&) [79]
+                0.00    0.00      10/10          int* std::uninitialized_copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*) [77]
+-----------------------------------------------
+                0.00    0.00      10/10          void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+[80]     0.0    0.00    0.00      10         Task* std::__uninitialized_move_if_noexcept_a<Task*, Task*, std::allocator<Task> >(Task*, Task*, Task*, std::allocator<Task>&) [80]
+                0.00    0.00      20/20          std::move_iterator<Task*> std::__make_move_if_noexcept_iterator<Task, std::move_iterator<Task*> >(Task*) [31]
+                0.00    0.00      10/10          Task* std::__uninitialized_copy_a<std::move_iterator<Task*>, Task*, Task>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*, std::allocator<Task>&) [78]
+-----------------------------------------------
+                0.00    0.00      10/10          void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+[81]     0.0    0.00    0.00      10         int* std::__uninitialized_move_if_noexcept_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&) [81]
+                0.00    0.00      20/20          std::move_iterator<int*> std::__make_move_if_noexcept_iterator<int, std::move_iterator<int*> >(int*) [32]
+                0.00    0.00      10/10          int* std::__uninitialized_copy_a<std::move_iterator<int*>, int*, int>(std::move_iterator<int*>, std::move_iterator<int*>, int*, std::allocator<int>&) [79]
+-----------------------------------------------
+                0.00    0.00      10/10          int* std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*) [70]
+[82]     0.0    0.00    0.00      10         int* std::copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*) [82]
+                0.00    0.00      20/20          decltype (__miter_base(({parm#1}.base)())) std::__miter_base<int*>(std::move_iterator<int*>) [29]
+                0.00    0.00      10/10          int* std::__copy_move_a2<true, int*, int*>(int*, int*, int*) [75]
+-----------------------------------------------
+                0.00    0.00      10/10          std::vector<Task, std::allocator<Task> >::push_back(Task&&) [72]
+[83]     0.0    0.00    0.00      10         std::remove_reference<Task&>::type&& std::move<Task&>(Task&) [83]
+-----------------------------------------------
+                0.00    0.00       9/9           _fu0___ZSt4cout [297]
+[84]     0.0    0.00    0.00       9         std::vector<Task, std::allocator<Task> >::operator[](unsigned int) [84]
+-----------------------------------------------
+                0.00    0.00       9/9           _fu0___ZSt4cout [297]
+[85]     0.0    0.00    0.00       9         std::vector<int, std::allocator<int> >::operator[](unsigned int) [85]
+-----------------------------------------------
+                0.00    0.00       4/8           std::vector<ClubMember, std::allocator<ClubMember> >::end() [144]
+                0.00    0.00       4/8           std::vector<ClubMember, std::allocator<ClubMember> >::begin() [145]
+[86]     0.0    0.00    0.00       8         __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::__normal_iterator(ClubMember* const&) [86]
+-----------------------------------------------
+                0.00    0.00       8/8           std::vector<ClubMember, std::allocator<ClubMember> >::max_size() const [88]
+[87]     0.0    0.00    0.00       8         std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_get_Tp_allocator() const [87]
+-----------------------------------------------
+                0.00    0.00       8/8           std::vector<ClubMember, std::allocator<ClubMember> >::_M_check_len(unsigned int, char const*) const [139]
+[88]     0.0    0.00    0.00       8         std::vector<ClubMember, std::allocator<ClubMember> >::max_size() const [88]
+                0.00    0.00       8/8           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_get_Tp_allocator() const [87]
+                0.00    0.00       8/8           std::allocator_traits<std::allocator<ClubMember> >::max_size(std::allocator<ClubMember> const&) [89]
+-----------------------------------------------
+                0.00    0.00       8/8           std::vector<ClubMember, std::allocator<ClubMember> >::max_size() const [88]
+[89]     0.0    0.00    0.00       8         std::allocator_traits<std::allocator<ClubMember> >::max_size(std::allocator<ClubMember> const&) [89]
+                0.00    0.00       8/12          __gnu_cxx::new_allocator<ClubMember>::max_size() const [51]
+-----------------------------------------------
+                0.00    0.00       8/8           ClubMember* std::uninitialized_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*) [91]
+[90]     0.0    0.00    0.00       8         ClubMember* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*) [90]
+                0.00    0.00      15/15          bool std::operator!=<ClubMember*>(std::move_iterator<ClubMember*> const&, std::move_iterator<ClubMember*> const&) [47]
+                0.00    0.00       7/7           std::move_iterator<ClubMember*>::operator*() const [94]
+                0.00    0.00       7/19          ClubMember* std::__addressof<ClubMember>(ClubMember&) [33]
+                0.00    0.00       7/7           void std::_Construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&) [96]
+                0.00    0.00       7/7           std::move_iterator<ClubMember*>::operator++() [95]
+-----------------------------------------------
+                0.00    0.00       8/8           ClubMember* std::__uninitialized_copy_a<std::move_iterator<ClubMember*>, ClubMember*, ClubMember>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*, std::allocator<ClubMember>&) [92]
+[91]     0.0    0.00    0.00       8         ClubMember* std::uninitialized_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*) [91]
+                0.00    0.00       8/8           ClubMember* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*) [90]
+-----------------------------------------------
+                0.00    0.00       8/8           ClubMember* std::__uninitialized_move_if_noexcept_a<ClubMember*, ClubMember*, std::allocator<ClubMember> >(ClubMember*, ClubMember*, ClubMember*, std::allocator<ClubMember>&) [93]
+[92]     0.0    0.00    0.00       8         ClubMember* std::__uninitialized_copy_a<std::move_iterator<ClubMember*>, ClubMember*, ClubMember>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*, std::allocator<ClubMember>&) [92]
+                0.00    0.00       8/8           ClubMember* std::uninitialized_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*) [91]
+-----------------------------------------------
+                0.00    0.00       8/8           void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+[93]     0.0    0.00    0.00       8         ClubMember* std::__uninitialized_move_if_noexcept_a<ClubMember*, ClubMember*, std::allocator<ClubMember> >(ClubMember*, ClubMember*, ClubMember*, std::allocator<ClubMember>&) [93]
+                0.00    0.00      16/16          std::move_iterator<ClubMember*> std::__make_move_if_noexcept_iterator<ClubMember, std::move_iterator<ClubMember*> >(ClubMember*) [40]
+                0.00    0.00       8/8           ClubMember* std::__uninitialized_copy_a<std::move_iterator<ClubMember*>, ClubMember*, ClubMember>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*, std::allocator<ClubMember>&) [92]
+-----------------------------------------------
+                0.00    0.00       7/7           ClubMember* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*) [90]
+[94]     0.0    0.00    0.00       7         std::move_iterator<ClubMember*>::operator*() const [94]
+-----------------------------------------------
+                0.00    0.00       7/7           ClubMember* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*) [90]
+[95]     0.0    0.00    0.00       7         std::move_iterator<ClubMember*>::operator++() [95]
+-----------------------------------------------
+                0.00    0.00       7/7           ClubMember* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*) [90]
+[96]     0.0    0.00    0.00       7         void std::_Construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&) [96]
+                0.00    0.00       7/26          ClubMember&& std::forward<ClubMember>(std::remove_reference<ClubMember>::type&) [15]
+                0.00    0.00       7/47          operator new(unsigned int, void*) [10]
+                0.00    0.00       7/12          ClubMember::ClubMember(ClubMember&&) [50]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Destroy<Task*>(Task*, Task*) [101]
+[97]     0.0    0.00    0.00       6         void std::_Destroy_aux<false>::__destroy<Task*>(Task*, Task*) [97]
+                0.00    0.00      25/40          Task* std::__addressof<Task>(Task&) [11]
+                0.00    0.00      25/25          void std::_Destroy<Task>(Task*) [18]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Destroy<int*>(int*, int*) [103]
+[98]     0.0    0.00    0.00       6         void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [98]
+-----------------------------------------------
+                0.00    0.00       1/6           std::_Vector_base<Task, std::allocator<Task> >::~_Vector_base() [190]
+                0.00    0.00       5/6           void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+[99]     0.0    0.00    0.00       6         std::_Vector_base<Task, std::allocator<Task> >::_M_deallocate(Task*, unsigned int) [99]
+                0.00    0.00       5/5           std::allocator_traits<std::allocator<Task> >::deallocate(std::allocator<Task>&, Task*, unsigned int) [120]
+-----------------------------------------------
+                0.00    0.00       1/6           std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [194]
+                0.00    0.00       5/6           void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+[100]    0.0    0.00    0.00       6         std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int) [100]
+                0.00    0.00       5/5           std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned int) [122]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Destroy<Task*, Task>(Task*, Task*, std::allocator<Task>&) [102]
+[101]    0.0    0.00    0.00       6         void std::_Destroy<Task*>(Task*, Task*) [101]
+                0.00    0.00       6/6           void std::_Destroy_aux<false>::__destroy<Task*>(Task*, Task*) [97]
+-----------------------------------------------
+                0.00    0.00       1/6           std::vector<Task, std::allocator<Task> >::~vector() [210]
+                0.00    0.00       5/6           void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+[102]    0.0    0.00    0.00       6         void std::_Destroy<Task*, Task>(Task*, Task*, std::allocator<Task>&) [102]
+                0.00    0.00       6/6           void std::_Destroy<Task*>(Task*, Task*) [101]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [104]
+[103]    0.0    0.00    0.00       6         void std::_Destroy<int*>(int*, int*) [103]
+                0.00    0.00       6/6           void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [98]
+-----------------------------------------------
+                0.00    0.00       1/6           std::vector<int, std::allocator<int> >::~vector() [216]
+                0.00    0.00       5/6           void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+[104]    0.0    0.00    0.00       6         void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [104]
+                0.00    0.00       6/6           void std::_Destroy<int*>(int*, int*) [103]
+-----------------------------------------------
+                0.00    0.00       5/5           _fu12___ZSt3cin [300]
+[105]    0.0    0.00    0.00       5         ClubMember::ClubMember(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) [105]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::allocator_traits<std::allocator<ClubMember> >::construct<ClubMember, ClubMember>(std::allocator<ClubMember>&, ClubMember*, ClubMember&&) [119]
+[106]    0.0    0.00    0.00       5         void __gnu_cxx::new_allocator<ClubMember>::construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&) [106]
+                0.00    0.00       5/26          ClubMember&& std::forward<ClubMember>(std::remove_reference<ClubMember>::type&) [15]
+                0.00    0.00       5/47          operator new(unsigned int, void*) [10]
+                0.00    0.00       5/12          ClubMember::ClubMember(ClubMember&&) [50]
+-----------------------------------------------
+                0.00    0.00       5/5           std::allocator_traits<std::allocator<Task> >::deallocate(std::allocator<Task>&, Task*, unsigned int) [120]
+[107]    0.0    0.00    0.00       5         __gnu_cxx::new_allocator<Task>::deallocate(Task*, unsigned int) [107]
+-----------------------------------------------
+                0.00    0.00       5/5           std::allocator_traits<std::allocator<Task> >::allocate(std::allocator<Task>&, unsigned int) [121]
+[108]    0.0    0.00    0.00       5         __gnu_cxx::new_allocator<Task>::allocate(unsigned int, void const*) [108]
+                0.00    0.00       5/15          __gnu_cxx::new_allocator<Task>::max_size() const [41]
+-----------------------------------------------
+                0.00    0.00       5/5           std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned int) [122]
+[109]    0.0    0.00    0.00       5         __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned int) [109]
+-----------------------------------------------
+                0.00    0.00       5/5           std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned int) [123]
+[110]    0.0    0.00    0.00       5         __gnu_cxx::new_allocator<int>::allocate(unsigned int, void const*) [110]
+                0.00    0.00       5/15          __gnu_cxx::new_allocator<int>::max_size() const [42]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+[111]    0.0    0.00    0.00       5         __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::difference_type __gnu_cxx::operator-<Task*, std::vector<Task, std::allocator<Task> > >(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > > const&, __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > > const&) [111]
+                0.00    0.00      10/20          __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::base() const [23]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+[112]    0.0    0.00    0.00       5         __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&) [112]
+                0.00    0.00      10/20          __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const [24]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+[113]    0.0    0.00    0.00       5         std::vector<Task, std::allocator<Task> >::_M_check_len(unsigned int, char const*) const [113]
+                0.00    0.00      20/21          std::vector<Task, std::allocator<Task> >::size() const [22]
+                0.00    0.00      10/10          std::vector<Task, std::allocator<Task> >::max_size() const [61]
+                0.00    0.00       5/14          unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&) [48]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+[114]    0.0    0.00    0.00       5         std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [114]
+                0.00    0.00      20/20          std::vector<int, std::allocator<int> >::size() const [26]
+                0.00    0.00      10/10          std::vector<int, std::allocator<int> >::max_size() const [62]
+                0.00    0.00       5/14          unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&) [48]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::_Destroy<ClubMember*>(ClubMember*, ClubMember*) [134]
+[115]    0.0    0.00    0.00       5         void std::_Destroy_aux<false>::__destroy<ClubMember*>(ClubMember*, ClubMember*) [115]
+                0.00    0.00      12/19          ClubMember* std::__addressof<ClubMember>(ClubMember&) [33]
+                0.00    0.00      12/12          void std::_Destroy<ClubMember>(ClubMember*) [52]
+-----------------------------------------------
+                0.00    0.00       1/5           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::~_Vector_base() [186]
+                0.00    0.00       4/5           void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+[116]    0.0    0.00    0.00       5         std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_deallocate(ClubMember*, unsigned int) [116]
+                0.00    0.00       4/4           std::allocator_traits<std::allocator<ClubMember> >::deallocate(std::allocator<ClubMember>&, ClubMember*, unsigned int) [141]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+[117]    0.0    0.00    0.00       5         std::_Vector_base<Task, std::allocator<Task> >::_M_allocate(unsigned int) [117]
+                0.00    0.00       5/5           std::allocator_traits<std::allocator<Task> >::allocate(std::allocator<Task>&, unsigned int) [121]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+[118]    0.0    0.00    0.00       5         std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned int) [118]
+                0.00    0.00       5/5           std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned int) [123]
+-----------------------------------------------
+                0.00    0.00       1/5           void std::vector<ClubMember, std::allocator<ClubMember> >::emplace_back<ClubMember>(ClubMember&&) [124]
+                0.00    0.00       4/5           void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+[119]    0.0    0.00    0.00       5         void std::allocator_traits<std::allocator<ClubMember> >::construct<ClubMember, ClubMember>(std::allocator<ClubMember>&, ClubMember*, ClubMember&&) [119]
+                0.00    0.00       5/26          ClubMember&& std::forward<ClubMember>(std::remove_reference<ClubMember>::type&) [15]
+                0.00    0.00       5/5           void __gnu_cxx::new_allocator<ClubMember>::construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&) [106]
+-----------------------------------------------
+                0.00    0.00       5/5           std::_Vector_base<Task, std::allocator<Task> >::_M_deallocate(Task*, unsigned int) [99]
+[120]    0.0    0.00    0.00       5         std::allocator_traits<std::allocator<Task> >::deallocate(std::allocator<Task>&, Task*, unsigned int) [120]
+                0.00    0.00       5/5           __gnu_cxx::new_allocator<Task>::deallocate(Task*, unsigned int) [107]
+-----------------------------------------------
+                0.00    0.00       5/5           std::_Vector_base<Task, std::allocator<Task> >::_M_allocate(unsigned int) [117]
+[121]    0.0    0.00    0.00       5         std::allocator_traits<std::allocator<Task> >::allocate(std::allocator<Task>&, unsigned int) [121]
+                0.00    0.00       5/5           __gnu_cxx::new_allocator<Task>::allocate(unsigned int, void const*) [108]
+-----------------------------------------------
+                0.00    0.00       5/5           std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int) [100]
+[122]    0.0    0.00    0.00       5         std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned int) [122]
+                0.00    0.00       5/5           __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned int) [109]
+-----------------------------------------------
+                0.00    0.00       5/5           std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned int) [118]
+[123]    0.0    0.00    0.00       5         std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned int) [123]
+                0.00    0.00       5/5           __gnu_cxx::new_allocator<int>::allocate(unsigned int, void const*) [110]
+-----------------------------------------------
+                0.00    0.00       5/5           std::vector<ClubMember, std::allocator<ClubMember> >::push_back(ClubMember&&) [125]
+[124]    0.0    0.00    0.00       5         void std::vector<ClubMember, std::allocator<ClubMember> >::emplace_back<ClubMember>(ClubMember&&) [124]
+                0.00    0.00       5/26          ClubMember&& std::forward<ClubMember>(std::remove_reference<ClubMember>::type&) [15]
+                0.00    0.00       4/4           std::vector<ClubMember, std::allocator<ClubMember> >::end() [144]
+                0.00    0.00       4/4           void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+                0.00    0.00       1/5           void std::allocator_traits<std::allocator<ClubMember> >::construct<ClubMember, ClubMember>(std::allocator<ClubMember>&, ClubMember*, ClubMember&&) [119]
+-----------------------------------------------
+                0.00    0.00       5/5           _fu12___ZSt3cin [300]
+[125]    0.0    0.00    0.00       5         std::vector<ClubMember, std::allocator<ClubMember> >::push_back(ClubMember&&) [125]
+                0.00    0.00       5/5           std::remove_reference<ClubMember&>::type&& std::move<ClubMember&>(ClubMember&) [132]
+                0.00    0.00       5/5           void std::vector<ClubMember, std::allocator<ClubMember> >::emplace_back<ClubMember>(ClubMember&&) [124]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::vector<Task, std::allocator<Task> >::emplace_back<Task>(Task&&) [71]
+[126]    0.0    0.00    0.00       5         void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+                0.00    0.00      15/16          std::_Vector_base<Task, std::allocator<Task> >::_M_get_Tp_allocator() [37]
+                0.00    0.00      10/20          __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::base() const [23]
+                0.00    0.00      10/10          Task* std::__uninitialized_move_if_noexcept_a<Task*, Task*, std::allocator<Task> >(Task*, Task*, Task*, std::allocator<Task>&) [80]
+                0.00    0.00       5/5           std::vector<Task, std::allocator<Task> >::_M_check_len(unsigned int, char const*) const [113]
+                0.00    0.00       5/5           std::vector<Task, std::allocator<Task> >::begin() [128]
+                0.00    0.00       5/5           __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::difference_type __gnu_cxx::operator-<Task*, std::vector<Task, std::allocator<Task> > >(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > > const&, __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > > const&) [111]
+                0.00    0.00       5/5           std::_Vector_base<Task, std::allocator<Task> >::_M_allocate(unsigned int) [117]
+                0.00    0.00       5/50          Task&& std::forward<Task>(std::remove_reference<Task>::type&) [9]
+                0.00    0.00       5/10          void std::allocator_traits<std::allocator<Task> >::construct<Task, Task>(std::allocator<Task>&, Task*, Task&&) [66]
+                0.00    0.00       5/6           void std::_Destroy<Task*, Task>(Task*, Task*, std::allocator<Task>&) [102]
+                0.00    0.00       5/6           std::_Vector_base<Task, std::allocator<Task> >::_M_deallocate(Task*, unsigned int) [99]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::vector<Task, std::allocator<Task> >::emplace_back<Task>(Task&&) [71]
+[127]    0.0    0.00    0.00       5         std::vector<Task, std::allocator<Task> >::end() [127]
+                0.00    0.00       5/10          __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::__normal_iterator(Task* const&) [57]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&) [126]
+[128]    0.0    0.00    0.00       5         std::vector<Task, std::allocator<Task> >::begin() [128]
+                0.00    0.00       5/10          __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::__normal_iterator(Task* const&) [57]
+-----------------------------------------------
+                0.00    0.00       5/5           std::vector<int, std::allocator<int> >::push_back(int const&) [73]
+[129]    0.0    0.00    0.00       5         void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+                0.00    0.00      15/16          std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [38]
+                0.00    0.00      10/20          __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const [24]
+                0.00    0.00      10/10          int* std::__uninitialized_move_if_noexcept_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&) [81]
+                0.00    0.00       5/5           std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [114]
+                0.00    0.00       5/5           std::vector<int, std::allocator<int> >::begin() [131]
+                0.00    0.00       5/5           __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&) [112]
+                0.00    0.00       5/5           std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned int) [118]
+                0.00    0.00       5/25          int const& std::forward<int const&>(std::remove_reference<int const&>::type&) [17]
+                0.00    0.00       5/10          void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&) [68]
+                0.00    0.00       5/6           void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [104]
+                0.00    0.00       5/6           std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int) [100]
+-----------------------------------------------
+                0.00    0.00       5/5           std::vector<int, std::allocator<int> >::push_back(int const&) [73]
+[130]    0.0    0.00    0.00       5         std::vector<int, std::allocator<int> >::end() [130]
+                0.00    0.00       5/10          __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::__normal_iterator(int* const&) [58]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [129]
+[131]    0.0    0.00    0.00       5         std::vector<int, std::allocator<int> >::begin() [131]
+                0.00    0.00       5/10          __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::__normal_iterator(int* const&) [58]
+-----------------------------------------------
+                0.00    0.00       5/5           std::vector<ClubMember, std::allocator<ClubMember> >::push_back(ClubMember&&) [125]
+[132]    0.0    0.00    0.00       5         std::remove_reference<ClubMember&>::type&& std::move<ClubMember&>(ClubMember&) [132]
+-----------------------------------------------
+                0.00    0.00       5/5           Club::show_allotment() [153]
+[133]    0.0    0.00    0.00       5         std::setw(int) [133]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::_Destroy<ClubMember*, ClubMember>(ClubMember*, ClubMember*, std::allocator<ClubMember>&) [135]
+[134]    0.0    0.00    0.00       5         void std::_Destroy<ClubMember*>(ClubMember*, ClubMember*) [134]
+                0.00    0.00       5/5           void std::_Destroy_aux<false>::__destroy<ClubMember*>(ClubMember*, ClubMember*) [115]
+-----------------------------------------------
+                0.00    0.00       1/5           std::vector<ClubMember, std::allocator<ClubMember> >::~vector() [208]
+                0.00    0.00       4/5           void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+[135]    0.0    0.00    0.00       5         void std::_Destroy<ClubMember*, ClubMember>(ClubMember*, ClubMember*, std::allocator<ClubMember>&) [135]
+                0.00    0.00       5/5           void std::_Destroy<ClubMember*>(ClubMember*, ClubMember*) [134]
+-----------------------------------------------
+                0.00    0.00       4/4           std::allocator_traits<std::allocator<ClubMember> >::deallocate(std::allocator<ClubMember>&, ClubMember*, unsigned int) [141]
+[136]    0.0    0.00    0.00       4         __gnu_cxx::new_allocator<ClubMember>::deallocate(ClubMember*, unsigned int) [136]
+-----------------------------------------------
+                0.00    0.00       4/4           std::allocator_traits<std::allocator<ClubMember> >::allocate(std::allocator<ClubMember>&, unsigned int) [142]
+[137]    0.0    0.00    0.00       4         __gnu_cxx::new_allocator<ClubMember>::allocate(unsigned int, void const*) [137]
+                0.00    0.00       4/12          __gnu_cxx::new_allocator<ClubMember>::max_size() const [51]
+-----------------------------------------------
+                0.00    0.00       4/4           void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+[138]    0.0    0.00    0.00       4         __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::difference_type __gnu_cxx::operator-<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > > const&, __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > > const&) [138]
+                0.00    0.00       8/16          __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::base() const [36]
+-----------------------------------------------
+                0.00    0.00       4/4           void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+[139]    0.0    0.00    0.00       4         std::vector<ClubMember, std::allocator<ClubMember> >::_M_check_len(unsigned int, char const*) const [139]
+                0.00    0.00      16/17          std::vector<ClubMember, std::allocator<ClubMember> >::size() const [35]
+                0.00    0.00       8/8           std::vector<ClubMember, std::allocator<ClubMember> >::max_size() const [88]
+                0.00    0.00       4/14          unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&) [48]
+-----------------------------------------------
+                0.00    0.00       4/4           void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+[140]    0.0    0.00    0.00       4         std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_allocate(unsigned int) [140]
+                0.00    0.00       4/4           std::allocator_traits<std::allocator<ClubMember> >::allocate(std::allocator<ClubMember>&, unsigned int) [142]
+-----------------------------------------------
+                0.00    0.00       4/4           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_deallocate(ClubMember*, unsigned int) [116]
+[141]    0.0    0.00    0.00       4         std::allocator_traits<std::allocator<ClubMember> >::deallocate(std::allocator<ClubMember>&, ClubMember*, unsigned int) [141]
+                0.00    0.00       4/4           __gnu_cxx::new_allocator<ClubMember>::deallocate(ClubMember*, unsigned int) [136]
+-----------------------------------------------
+                0.00    0.00       4/4           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_allocate(unsigned int) [140]
+[142]    0.0    0.00    0.00       4         std::allocator_traits<std::allocator<ClubMember> >::allocate(std::allocator<ClubMember>&, unsigned int) [142]
+                0.00    0.00       4/4           __gnu_cxx::new_allocator<ClubMember>::allocate(unsigned int, void const*) [137]
+-----------------------------------------------
+                0.00    0.00       4/4           void std::vector<ClubMember, std::allocator<ClubMember> >::emplace_back<ClubMember>(ClubMember&&) [124]
+[143]    0.0    0.00    0.00       4         void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+                0.00    0.00      12/13          std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_get_Tp_allocator() [49]
+                0.00    0.00       8/16          __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::base() const [36]
+                0.00    0.00       8/8           ClubMember* std::__uninitialized_move_if_noexcept_a<ClubMember*, ClubMember*, std::allocator<ClubMember> >(ClubMember*, ClubMember*, ClubMember*, std::allocator<ClubMember>&) [93]
+                0.00    0.00       4/4           std::vector<ClubMember, std::allocator<ClubMember> >::_M_check_len(unsigned int, char const*) const [139]
+                0.00    0.00       4/4           std::vector<ClubMember, std::allocator<ClubMember> >::begin() [145]
+                0.00    0.00       4/4           __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::difference_type __gnu_cxx::operator-<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > > const&, __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > > const&) [138]
+                0.00    0.00       4/4           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_allocate(unsigned int) [140]
+                0.00    0.00       4/26          ClubMember&& std::forward<ClubMember>(std::remove_reference<ClubMember>::type&) [15]
+                0.00    0.00       4/5           void std::allocator_traits<std::allocator<ClubMember> >::construct<ClubMember, ClubMember>(std::allocator<ClubMember>&, ClubMember*, ClubMember&&) [119]
+                0.00    0.00       4/5           void std::_Destroy<ClubMember*, ClubMember>(ClubMember*, ClubMember*, std::allocator<ClubMember>&) [135]
+                0.00    0.00       4/5           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_deallocate(ClubMember*, unsigned int) [116]
+-----------------------------------------------
+                0.00    0.00       4/4           void std::vector<ClubMember, std::allocator<ClubMember> >::emplace_back<ClubMember>(ClubMember&&) [124]
+[144]    0.0    0.00    0.00       4         std::vector<ClubMember, std::allocator<ClubMember> >::end() [144]
+                0.00    0.00       4/8           __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::__normal_iterator(ClubMember* const&) [86]
+-----------------------------------------------
+                0.00    0.00       4/4           void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&) [143]
+[145]    0.0    0.00    0.00       4         std::vector<ClubMember, std::allocator<ClubMember> >::begin() [145]
+                0.00    0.00       4/8           __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::__normal_iterator(ClubMember* const&) [86]
+-----------------------------------------------
+                0.00    0.00       1/3           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset() [200]
+                0.00    0.00       2/3           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data() [201]
+[146]    0.0    0.00    0.00       3         std::_Bit_iterator::_Bit_iterator() [146]
+                0.00    0.00       3/69          std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) [2]
+-----------------------------------------------
+                0.00    0.00       1/3           std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned int) [211]
+                0.00    0.00       2/3           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const [149]
+[147]    0.0    0.00    0.00       3         unsigned long* std::__addressof<unsigned long>(unsigned long&) [147]
+-----------------------------------------------
+                0.00    0.00       1/2           std::allocator<unsigned long>::~allocator() [181]
+                0.00    0.00       1/2           std::allocator<unsigned long>::~allocator() [182]
+[148]    0.0    0.00    0.00       2         __gnu_cxx::new_allocator<unsigned long>::~new_allocator() [148]
+-----------------------------------------------
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [199]
+                0.00    0.00       1/2           std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool) [212]
+[149]    0.0    0.00    0.00       2         std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const [149]
+                0.00    0.00       2/3           unsigned long* std::__addressof<unsigned long>(unsigned long&) [147]
+-----------------------------------------------
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned int) [196]
+                0.00    0.00       1/2           std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned int) [211]
+[150]    0.0    0.00    0.00       2         std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned int) [150]
+-----------------------------------------------
+                0.00    0.00       1/1           main [334]
+[151]    0.0    0.00    0.00       1         Club::take_input() [151]
+-----------------------------------------------
+                0.00    0.00       1/1           Club::show_allotment() [153]
+[152]    0.0    0.00    0.00       1         Club::kthPermutation(int, long long) [152]
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::vector() [215]
+                0.00    0.00       1/1           std::allocator<bool>::allocator() [175]
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::vector(unsigned int, bool const&, std::allocator<bool> const&) [213]
+                0.00    0.00       1/1           std::allocator<bool>::~allocator() [176]
+                0.00    0.00       1/1           Club::kthPermutationUtil(std::vector<int, std::allocator<int> >&, std::vector<bool, std::allocator<bool> >&, int, int, long long) [154]
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::~vector() [214]
+-----------------------------------------------
+                0.00    0.00       1/1           main [334]
+[153]    0.0    0.00    0.00       1         Club::show_allotment() [153]
+                0.00    0.00       5/5           std::setw(int) [133]
+                0.00    0.00       1/21          std::vector<Task, std::allocator<Task> >::size() const [22]
+                0.00    0.00       1/17          std::vector<ClubMember, std::allocator<ClubMember> >::size() const [35]
+                0.00    0.00       1/11          Club::factorial(int) [53]
+                0.00    0.00       1/1           Club::kthPermutation(int, long long) [152]
+-----------------------------------------------
+                                  10             Club::kthPermutationUtil(std::vector<int, std::allocator<int> >&, std::vector<bool, std::allocator<bool> >&, int, int, long long) [154]
+                0.00    0.00       1/1           Club::kthPermutation(int, long long) [152]
+[154]    0.0    0.00    0.00       1+10      Club::kthPermutationUtil(std::vector<int, std::allocator<int> >&, std::vector<bool, std::allocator<bool> >&, int, int, long long) [154]
+                0.00    0.00      65/65          std::vector<bool, std::allocator<bool> >::operator[](unsigned int) [6]
+                0.00    0.00      55/55          std::_Bit_reference::operator bool() const [7]
+                0.00    0.00      10/11          Club::factorial(int) [53]
+                0.00    0.00      10/10          std::vector<int, std::allocator<int> >::push_back(int const&) [73]
+                0.00    0.00      10/10          std::_Bit_reference::operator=(bool) [64]
+                                  10             Club::kthPermutationUtil(std::vector<int, std::allocator<int> >&, std::vector<bool, std::allocator<bool> >&, int, int, long long) [154]
+-----------------------------------------------
+                0.00    0.00       1/1           main [334]
+[155]    0.0    0.00    0.00       1         Club::Club() [155]
+                0.00    0.00       1/1           std::vector<ClubMember, std::allocator<ClubMember> >::vector() [207]
+                0.00    0.00       1/1           std::vector<Task, std::allocator<Task> >::vector() [209]
+-----------------------------------------------
+                0.00    0.00       1/1           main [334]
+[156]    0.0    0.00    0.00       1         Club::~Club() [156]
+                0.00    0.00       1/1           std::vector<Task, std::allocator<Task> >::~vector() [210]
+                0.00    0.00       1/1           std::vector<ClubMember, std::allocator<ClubMember> >::~vector() [208]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<ClubMember>::allocator() [171]
+[157]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<ClubMember>::new_allocator() [157]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<ClubMember>::~allocator() [172]
+[158]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<ClubMember>::~new_allocator() [158]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<Task>::allocator() [173]
+[159]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<Task>::new_allocator() [159]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<Task>::~allocator() [174]
+[160]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<Task>::~new_allocator() [160]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<bool>::allocator() [175]
+[161]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<bool>::new_allocator() [161]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<bool>::~allocator() [176]
+[162]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<bool>::~new_allocator() [162]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<int>::allocator() [177]
+[163]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<int>::new_allocator() [163]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<int>::~allocator() [178]
+[164]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<int>::~new_allocator() [164]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned int) [204]
+[165]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned int) [165]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned int) [205]
+[166]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned int, void const*) [166]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::max_size() const [169]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&) [180]
+[167]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<unsigned long>::new_allocator(__gnu_cxx::new_allocator<unsigned long> const&) [167]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&) [179]
+[168]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<unsigned long>::new_allocator() [168]
+-----------------------------------------------
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned int, void const*) [166]
+[169]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<unsigned long>::max_size() const [169]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned int) [211]
+[170]    0.0    0.00    0.00       1         std::_Bit_iterator::operator+(int) const [170]
+                0.00    0.00       1/1           std::_Bit_iterator::operator+=(int) [195]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_impl::_Vector_impl() [183]
+[171]    0.0    0.00    0.00       1         std::allocator<ClubMember>::allocator() [171]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<ClubMember>::new_allocator() [157]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_impl::~_Vector_impl() [184]
+[172]    0.0    0.00    0.00       1         std::allocator<ClubMember>::~allocator() [172]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<ClubMember>::~new_allocator() [158]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<Task, std::allocator<Task> >::_Vector_impl::_Vector_impl() [187]
+[173]    0.0    0.00    0.00       1         std::allocator<Task>::allocator() [173]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<Task>::new_allocator() [159]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<Task, std::allocator<Task> >::_Vector_impl::~_Vector_impl() [188]
+[174]    0.0    0.00    0.00       1         std::allocator<Task>::~allocator() [174]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<Task>::~new_allocator() [160]
+-----------------------------------------------
+                0.00    0.00       1/1           Club::kthPermutation(int, long long) [152]
+[175]    0.0    0.00    0.00       1         std::allocator<bool>::allocator() [175]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<bool>::new_allocator() [161]
+-----------------------------------------------
+                0.00    0.00       1/1           Club::kthPermutation(int, long long) [152]
+[176]    0.0    0.00    0.00       1         std::allocator<bool>::~allocator() [176]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<bool>::~new_allocator() [162]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [191]
+[177]    0.0    0.00    0.00       1         std::allocator<int>::allocator() [177]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<int>::new_allocator() [163]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [192]
+[178]    0.0    0.00    0.00       1         std::allocator<int>::~allocator() [178]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<int>::~new_allocator() [164]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [202]
+[179]    0.0    0.00    0.00       1         std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&) [179]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::new_allocator() [168]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&) [197]
+[180]    0.0    0.00    0.00       1         std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&) [180]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::new_allocator(__gnu_cxx::new_allocator<unsigned long> const&) [167]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [202]
+[181]    0.0    0.00    0.00       1         std::allocator<unsigned long>::~allocator() [181]
+                0.00    0.00       1/2           __gnu_cxx::new_allocator<unsigned long>::~new_allocator() [148]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl() [198]
+[182]    0.0    0.00    0.00       1         std::allocator<unsigned long>::~allocator() [182]
+                0.00    0.00       1/2           __gnu_cxx::new_allocator<unsigned long>::~new_allocator() [148]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_base() [185]
+[183]    0.0    0.00    0.00       1         std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_impl::_Vector_impl() [183]
+                0.00    0.00       1/1           std::allocator<ClubMember>::allocator() [171]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::~_Vector_base() [186]
+[184]    0.0    0.00    0.00       1         std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_impl::~_Vector_impl() [184]
+                0.00    0.00       1/1           std::allocator<ClubMember>::~allocator() [172]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<ClubMember, std::allocator<ClubMember> >::vector() [207]
+[185]    0.0    0.00    0.00       1         std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_base() [185]
+                0.00    0.00       1/1           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_impl::_Vector_impl() [183]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<ClubMember, std::allocator<ClubMember> >::~vector() [208]
+[186]    0.0    0.00    0.00       1         std::_Vector_base<ClubMember, std::allocator<ClubMember> >::~_Vector_base() [186]
+                0.00    0.00       1/5           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_deallocate(ClubMember*, unsigned int) [116]
+                0.00    0.00       1/1           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_impl::~_Vector_impl() [184]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<Task, std::allocator<Task> >::_Vector_base() [189]
+[187]    0.0    0.00    0.00       1         std::_Vector_base<Task, std::allocator<Task> >::_Vector_impl::_Vector_impl() [187]
+                0.00    0.00       1/1           std::allocator<Task>::allocator() [173]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<Task, std::allocator<Task> >::~_Vector_base() [190]
+[188]    0.0    0.00    0.00       1         std::_Vector_base<Task, std::allocator<Task> >::_Vector_impl::~_Vector_impl() [188]
+                0.00    0.00       1/1           std::allocator<Task>::~allocator() [174]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Task, std::allocator<Task> >::vector() [209]
+[189]    0.0    0.00    0.00       1         std::_Vector_base<Task, std::allocator<Task> >::_Vector_base() [189]
+                0.00    0.00       1/1           std::_Vector_base<Task, std::allocator<Task> >::_Vector_impl::_Vector_impl() [187]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<Task, std::allocator<Task> >::~vector() [210]
+[190]    0.0    0.00    0.00       1         std::_Vector_base<Task, std::allocator<Task> >::~_Vector_base() [190]
+                0.00    0.00       1/6           std::_Vector_base<Task, std::allocator<Task> >::_M_deallocate(Task*, unsigned int) [99]
+                0.00    0.00       1/1           std::_Vector_base<Task, std::allocator<Task> >::_Vector_impl::~_Vector_impl() [188]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_base() [193]
+[191]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [191]
+                0.00    0.00       1/1           std::allocator<int>::allocator() [177]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [194]
+[192]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [192]
+                0.00    0.00       1/1           std::allocator<int>::~allocator() [178]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::vector() [215]
+[193]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::_Vector_base() [193]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [191]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::~vector() [216]
+[194]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [194]
+                0.00    0.00       1/6           std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int) [100]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [192]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bit_iterator::operator+(int) const [170]
+[195]    0.0    0.00    0.00       1         std::_Bit_iterator::operator+=(int) [195]
+                0.00    0.00       1/1           std::_Bit_iterator_base::_M_incr(int) [206]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned int) [211]
+[196]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned int) [196]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned int) [150]
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned int) [205]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [202]
+[197]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&) [197]
+                0.00    0.00       1/1           std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&) [180]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data() [201]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::~_Bvector_base() [203]
+[198]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl() [198]
+                0.00    0.00       1/1           std::allocator<unsigned long>::~allocator() [182]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::~_Bvector_base() [203]
+[199]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [199]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const [149]
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned int) [204]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset() [200]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [199]
+[200]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset() [200]
+                0.00    0.00       1/3           std::_Bit_iterator::_Bit_iterator() [146]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&) [197]
+[201]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data() [201]
+                0.00    0.00       2/3           std::_Bit_iterator::_Bit_iterator() [146]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::vector(unsigned int, bool const&, std::allocator<bool> const&) [213]
+[202]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [202]
+                0.00    0.00       1/1           std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&) [179]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&) [197]
+                0.00    0.00       1/1           std::allocator<unsigned long>::~allocator() [181]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::~vector() [214]
+[203]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::~_Bvector_base() [203]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [199]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl() [198]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [199]
+[204]    0.0    0.00    0.00       1         std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned int) [204]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned int) [165]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned int) [196]
+[205]    0.0    0.00    0.00       1         std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned int) [205]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned int, void const*) [166]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bit_iterator::operator+=(int) [195]
+[206]    0.0    0.00    0.00       1         std::_Bit_iterator_base::_M_incr(int) [206]
+-----------------------------------------------
+                0.00    0.00       1/1           Club::Club() [155]
+[207]    0.0    0.00    0.00       1         std::vector<ClubMember, std::allocator<ClubMember> >::vector() [207]
+                0.00    0.00       1/1           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_base() [185]
+-----------------------------------------------
+                0.00    0.00       1/1           Club::~Club() [156]
+[208]    0.0    0.00    0.00       1         std::vector<ClubMember, std::allocator<ClubMember> >::~vector() [208]
+                0.00    0.00       1/13          std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_get_Tp_allocator() [49]
+                0.00    0.00       1/5           void std::_Destroy<ClubMember*, ClubMember>(ClubMember*, ClubMember*, std::allocator<ClubMember>&) [135]
+                0.00    0.00       1/1           std::_Vector_base<ClubMember, std::allocator<ClubMember> >::~_Vector_base() [186]
+-----------------------------------------------
+                0.00    0.00       1/1           Club::Club() [155]
+[209]    0.0    0.00    0.00       1         std::vector<Task, std::allocator<Task> >::vector() [209]
+                0.00    0.00       1/1           std::_Vector_base<Task, std::allocator<Task> >::_Vector_base() [189]
+-----------------------------------------------
+                0.00    0.00       1/1           Club::~Club() [156]
+[210]    0.0    0.00    0.00       1         std::vector<Task, std::allocator<Task> >::~vector() [210]
+                0.00    0.00       1/16          std::_Vector_base<Task, std::allocator<Task> >::_M_get_Tp_allocator() [37]
+                0.00    0.00       1/6           void std::_Destroy<Task*, Task>(Task*, Task*, std::allocator<Task>&) [102]
+                0.00    0.00       1/1           std::_Vector_base<Task, std::allocator<Task> >::~_Vector_base() [190]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::vector(unsigned int, bool const&, std::allocator<bool> const&) [213]
+[211]    0.0    0.00    0.00       1         std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned int) [211]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned int) [196]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned int) [150]
+                0.00    0.00       1/3           unsigned long* std::__addressof<unsigned long>(unsigned long&) [147]
+                0.00    0.00       1/66          std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) [3]
+                0.00    0.00       1/1           std::_Bit_iterator::operator+(int) const [170]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::vector(unsigned int, bool const&, std::allocator<bool> const&) [213]
+[212]    0.0    0.00    0.00       1         std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool) [212]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const [149]
+-----------------------------------------------
+                0.00    0.00       1/1           Club::kthPermutation(int, long long) [152]
+[213]    0.0    0.00    0.00       1         std::vector<bool, std::allocator<bool> >::vector(unsigned int, bool const&, std::allocator<bool> const&) [213]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [202]
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned int) [211]
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool) [212]
+-----------------------------------------------
+                0.00    0.00       1/1           Club::kthPermutation(int, long long) [152]
+[214]    0.0    0.00    0.00       1         std::vector<bool, std::allocator<bool> >::~vector() [214]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::~_Bvector_base() [203]
+-----------------------------------------------
+                0.00    0.00       1/1           Club::kthPermutation(int, long long) [152]
+[215]    0.0    0.00    0.00       1         std::vector<int, std::allocator<int> >::vector() [215]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_base() [193]
+-----------------------------------------------
+                0.00    0.00       1/1           _fu2___ZSt4cout [305]
+[216]    0.0    0.00    0.00       1         std::vector<int, std::allocator<int> >::~vector() [216]
+                0.00    0.00       1/16          std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [38]
+                0.00    0.00       1/6           void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [104]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [194]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [105] ClubMember::ClubMember(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) [174] std::allocator<Task>::~allocator() [124] void std::vector<ClubMember, std::allocator<ClubMember> >::emplace_back<ClubMember>(ClubMember&&)
+  [50] ClubMember::ClubMember(ClubMember&&) [175] std::allocator<bool>::allocator() [143] void std::vector<ClubMember, std::allocator<ClubMember> >::_M_realloc_insert<ClubMember>(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >, ClubMember&&)
+  [34] ClubMember::~ClubMember() [176] std::allocator<bool>::~allocator() [144] std::vector<ClubMember, std::allocator<ClubMember> >::end()
+ [151] Club::take_input()    [177] std::allocator<int>::allocator() [145] std::vector<ClubMember, std::allocator<ClubMember> >::begin()
+ [152] Club::kthPermutation(int, long long) [178] std::allocator<int>::~allocator() [125] std::vector<ClubMember, std::allocator<ClubMember> >::push_back(ClubMember&&)
+ [153] Club::show_allotment() [179] std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&) [207] std::vector<ClubMember, std::allocator<ClubMember> >::vector()
+ [154] Club::kthPermutationUtil(std::vector<int, std::allocator<int> >&, std::vector<bool, std::allocator<bool> >&, int, int, long long) [180] std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&) [208] std::vector<ClubMember, std::allocator<ClubMember> >::~vector()
+  [53] Club::factorial(int)  [181] std::allocator<unsigned long>::~allocator() [21] std::vector<ClubMember, std::allocator<ClubMember> >::operator[](unsigned int)
+ [155] Club::Club()          [182] std::allocator<unsigned long>::~allocator() [71] void std::vector<Task, std::allocator<Task> >::emplace_back<Task>(Task&&)
+ [156] Club::~Club()          [63] int* std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<int>(int const*, int const*, int*) [126] void std::vector<Task, std::allocator<Task> >::_M_realloc_insert<Task>(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >, Task&&)
+  [54] Task::Task(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [115] void std::_Destroy_aux<false>::__destroy<ClubMember*>(ClubMember*, ClubMember*) [127] std::vector<Task, std::allocator<Task> >::end()
+  [16] Task::Task(Task&&)     [97] void std::_Destroy_aux<false>::__destroy<Task*>(Task*, Task*) [128] std::vector<Task, std::allocator<Task> >::begin()
+  [12] Task::~Task()          [98] void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [72] std::vector<Task, std::allocator<Task> >::push_back(Task&&)
+ [136] __gnu_cxx::new_allocator<ClubMember>::deallocate(ClubMember*, unsigned int) [140] std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_allocate(unsigned int) [209] std::vector<Task, std::allocator<Task> >::vector()
+ [137] __gnu_cxx::new_allocator<ClubMember>::allocate(unsigned int, void const*) [183] std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_impl::_Vector_impl() [210] std::vector<Task, std::allocator<Task> >::~vector()
+ [106] void __gnu_cxx::new_allocator<ClubMember>::construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&) [184] std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_impl::~_Vector_impl() [84] std::vector<Task, std::allocator<Task> >::operator[](unsigned int)
+ [157] __gnu_cxx::new_allocator<ClubMember>::new_allocator() [116] std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_deallocate(ClubMember*, unsigned int) [211] std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned int)
+ [158] __gnu_cxx::new_allocator<ClubMember>::~new_allocator() [49] std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_get_Tp_allocator() [212] std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool)
+ [107] __gnu_cxx::new_allocator<Task>::deallocate(Task*, unsigned int) [185] std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_Vector_base() [213] std::vector<bool, std::allocator<bool> >::vector(unsigned int, bool const&, std::allocator<bool> const&)
+ [108] __gnu_cxx::new_allocator<Task>::allocate(unsigned int, void const*) [186] std::_Vector_base<ClubMember, std::allocator<ClubMember> >::~_Vector_base() [214] std::vector<bool, std::allocator<bool> >::~vector()
+  [55] void __gnu_cxx::new_allocator<Task>::construct<Task, Task>(Task*, Task&&) [117] std::_Vector_base<Task, std::allocator<Task> >::_M_allocate(unsigned int) [6] std::vector<bool, std::allocator<bool> >::operator[](unsigned int)
+ [159] __gnu_cxx::new_allocator<Task>::new_allocator() [187] std::_Vector_base<Task, std::allocator<Task> >::_Vector_impl::_Vector_impl() [129] void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+ [160] __gnu_cxx::new_allocator<Task>::~new_allocator() [188] std::_Vector_base<Task, std::allocator<Task> >::_Vector_impl::~_Vector_impl() [130] std::vector<int, std::allocator<int> >::end()
+ [161] __gnu_cxx::new_allocator<bool>::new_allocator() [99] std::_Vector_base<Task, std::allocator<Task> >::_M_deallocate(Task*, unsigned int) [131] std::vector<int, std::allocator<int> >::begin()
+ [162] __gnu_cxx::new_allocator<bool>::~new_allocator() [37] std::_Vector_base<Task, std::allocator<Task> >::_M_get_Tp_allocator() [73] std::vector<int, std::allocator<int> >::push_back(int const&)
+ [109] __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned int) [189] std::_Vector_base<Task, std::allocator<Task> >::_Vector_base() [215] std::vector<int, std::allocator<int> >::vector()
+ [110] __gnu_cxx::new_allocator<int>::allocate(unsigned int, void const*) [190] std::_Vector_base<Task, std::allocator<Task> >::~_Vector_base() [216] std::vector<int, std::allocator<int> >::~vector()
+  [56] void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&) [118] std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned int) [85] std::vector<int, std::allocator<int> >::operator[](unsigned int)
+ [163] __gnu_cxx::new_allocator<int>::new_allocator() [191] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [96] void std::_Construct<ClubMember, ClubMember>(ClubMember*, ClubMember&&)
+ [164] __gnu_cxx::new_allocator<int>::~new_allocator() [192] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [45] void std::_Construct<Task, Task>(Task*, Task&&)
+ [165] __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned int) [100] std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int) [33] ClubMember* std::__addressof<ClubMember>(ClubMember&)
+ [166] __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned int, void const*) [38] std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [11] Task* std::__addressof<Task>(Task&)
+ [167] __gnu_cxx::new_allocator<unsigned long>::new_allocator(__gnu_cxx::new_allocator<unsigned long> const&) [193] std::_Vector_base<int, std::allocator<int> >::_Vector_base() [147] unsigned long* std::__addressof<unsigned long>(unsigned long&)
+ [168] __gnu_cxx::new_allocator<unsigned long>::new_allocator() [194] std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [29] decltype (__miter_base(({parm#1}.base)())) std::__miter_base<int*>(std::move_iterator<int*>)
+ [148] __gnu_cxx::new_allocator<unsigned long>::~new_allocator() [3] std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) [30] int* std::__miter_base<int*>(int*)
+  [86] __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::__normal_iterator(ClubMember* const&) [146] std::_Bit_iterator::_Bit_iterator() [14] int* std::__niter_base<int*>(int*)
+  [57] __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::__normal_iterator(Task* const&) [195] std::_Bit_iterator::operator+=(int) [74] int* std::__copy_move_a<true, int*, int*>(int*, int*, int*)
+  [58] __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::__normal_iterator(int* const&) [196] std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned int) [75] int* std::__copy_move_a2<true, int*, int*>(int*, int*, int*)
+ [138] __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::difference_type __gnu_cxx::operator-<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >(__gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > > const&, __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > > const&) [197] std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&) [91] ClubMember* std::uninitialized_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*)
+ [111] __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::difference_type __gnu_cxx::operator-<Task*, std::vector<Task, std::allocator<Task> > >(__gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > > const&, __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > > const&) [198] std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl() [76] Task* std::uninitialized_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*)
+ [112] __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&) [199] std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [77] int* std::uninitialized_copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*)
+  [51] __gnu_cxx::new_allocator<ClubMember>::max_size() const [200] std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset() [92] ClubMember* std::__uninitialized_copy_a<std::move_iterator<ClubMember*>, ClubMember*, ClubMember>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*, std::allocator<ClubMember>&)
+  [41] __gnu_cxx::new_allocator<Task>::max_size() const [201] std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data() [78] Task* std::__uninitialized_copy_a<std::move_iterator<Task*>, Task*, Task>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*, std::allocator<Task>&)
+  [42] __gnu_cxx::new_allocator<int>::max_size() const [150] std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned int) [79] int* std::__uninitialized_copy_a<std::move_iterator<int*>, int*, int>(std::move_iterator<int*>, std::move_iterator<int*>, int*, std::allocator<int>&)
+ [169] __gnu_cxx::new_allocator<unsigned long>::max_size() const [202] std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [40] std::move_iterator<ClubMember*> std::__make_move_if_noexcept_iterator<ClubMember, std::move_iterator<ClubMember*> >(ClubMember*)
+  [36] __gnu_cxx::__normal_iterator<ClubMember*, std::vector<ClubMember, std::allocator<ClubMember> > >::base() const [203] std::_Bvector_base<std::allocator<bool> >::~_Bvector_base() [31] std::move_iterator<Task*> std::__make_move_if_noexcept_iterator<Task, std::move_iterator<Task*> >(Task*)
+  [23] __gnu_cxx::__normal_iterator<Task*, std::vector<Task, std::allocator<Task> > >::base() const [39] std::move_iterator<ClubMember*>::move_iterator(ClubMember*) [32] std::move_iterator<int*> std::__make_move_if_noexcept_iterator<int, std::move_iterator<int*> >(int*)
+  [24] __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const [95] std::move_iterator<ClubMember*>::operator++() [93] ClubMember* std::__uninitialized_move_if_noexcept_a<ClubMember*, ClubMember*, std::allocator<ClubMember> >(ClubMember*, ClubMember*, ClubMember*, std::allocator<ClubMember>&)
+  [87] std::_Vector_base<ClubMember, std::allocator<ClubMember> >::_M_get_Tp_allocator() const [27] std::move_iterator<Task*>::move_iterator(Task*) [80] Task* std::__uninitialized_move_if_noexcept_a<Task*, Task*, std::allocator<Task> >(Task*, Task*, Task*, std::allocator<Task>&)
+  [59] std::_Vector_base<Task, std::allocator<Task> >::_M_get_Tp_allocator() const [44] std::move_iterator<Task*>::operator++() [81] int* std::__uninitialized_move_if_noexcept_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&)
+  [60] std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() const [28] std::move_iterator<int*>::move_iterator(int*) [48] unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&)
+   [4] std::_Bit_iterator::operator*() const [5] std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long) [82] int* std::copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*)
+ [170] std::_Bit_iterator::operator+(int) const [64] std::_Bit_reference::operator=(bool) [132] std::remove_reference<ClubMember&>::type&& std::move<ClubMember&>(ClubMember&)
+ [149] std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const [141] std::allocator_traits<std::allocator<ClubMember> >::deallocate(std::allocator<ClubMember>&, ClubMember*, unsigned int) [83] std::remove_reference<Task&>::type&& std::move<Task&>(Task&)
+  [13] std::move_iterator<ClubMember*>::base() const [142] std::allocator_traits<std::allocator<ClubMember> >::allocate(std::allocator<ClubMember>&, unsigned int) [133] std::setw(int)
+  [94] std::move_iterator<ClubMember*>::operator*() const [89] std::allocator_traits<std::allocator<ClubMember> >::max_size(std::allocator<ClubMember> const&) [15] ClubMember&& std::forward<ClubMember>(std::remove_reference<ClubMember>::type&)
+   [8] std::move_iterator<Task*>::base() const [119] void std::allocator_traits<std::allocator<ClubMember> >::construct<ClubMember, ClubMember>(std::allocator<ClubMember>&, ClubMember*, ClubMember&&) [9] Task&& std::forward<Task>(std::remove_reference<Task>::type&)
+  [43] std::move_iterator<Task*>::operator*() const [120] std::allocator_traits<std::allocator<Task> >::deallocate(std::allocator<Task>&, Task*, unsigned int) [17] int const& std::forward<int const&>(std::remove_reference<int const&>::type&)
+  [25] std::move_iterator<int*>::base() const [121] std::allocator_traits<std::allocator<Task> >::allocate(std::allocator<Task>&, unsigned int) [52] void std::_Destroy<ClubMember>(ClubMember*)
+   [7] std::_Bit_reference::operator bool() const [65] std::allocator_traits<std::allocator<Task> >::max_size(std::allocator<Task> const&) [18] void std::_Destroy<Task>(Task*)
+ [139] std::vector<ClubMember, std::allocator<ClubMember> >::_M_check_len(unsigned int, char const*) const [66] void std::allocator_traits<std::allocator<Task> >::construct<Task, Task>(std::allocator<Task>&, Task*, Task&&) [134] void std::_Destroy<ClubMember*>(ClubMember*, ClubMember*)
+  [35] std::vector<ClubMember, std::allocator<ClubMember> >::size() const [122] std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned int) [135] void std::_Destroy<ClubMember*, ClubMember>(ClubMember*, ClubMember*, std::allocator<ClubMember>&)
+  [88] std::vector<ClubMember, std::allocator<ClubMember> >::max_size() const [123] std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned int) [101] void std::_Destroy<Task*>(Task*, Task*)
+ [113] std::vector<Task, std::allocator<Task> >::_M_check_len(unsigned int, char const*) const [67] std::allocator_traits<std::allocator<int> >::max_size(std::allocator<int> const&) [102] void std::_Destroy<Task*, Task>(Task*, Task*, std::allocator<Task>&)
+  [22] std::vector<Task, std::allocator<Task> >::size() const [68] void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&) [103] void std::_Destroy<int*>(int*, int*)
+  [61] std::vector<Task, std::allocator<Task> >::max_size() const [204] std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned int) [104] void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
+ [114] std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [205] std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned int) [46] bool std::operator==<ClubMember*>(std::move_iterator<ClubMember*> const&, std::move_iterator<ClubMember*> const&)
+  [26] std::vector<int, std::allocator<int> >::size() const [206] std::_Bit_iterator_base::_M_incr(int) [19] bool std::operator==<Task*>(std::move_iterator<Task*> const&, std::move_iterator<Task*> const&)
+  [62] std::vector<int, std::allocator<int> >::max_size() const [2] std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) [47] bool std::operator!=<ClubMember*>(std::move_iterator<ClubMember*> const&, std::move_iterator<ClubMember*> const&)
+ [171] std::allocator<ClubMember>::allocator() [90] ClubMember* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<ClubMember*>, ClubMember*>(std::move_iterator<ClubMember*>, std::move_iterator<ClubMember*>, ClubMember*) [20] bool std::operator!=<Task*>(std::move_iterator<Task*> const&, std::move_iterator<Task*> const&)
+ [172] std::allocator<ClubMember>::~allocator() [69] Task* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<Task*>, Task*>(std::move_iterator<Task*>, std::move_iterator<Task*>, Task*) [10] operator new(unsigned int, void*)
+ [173] std::allocator<Task>::allocator() [70] int* std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<int*>, int*>(std::move_iterator<int*>, std::move_iterator<int*>, int*)
